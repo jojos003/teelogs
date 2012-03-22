@@ -1,0 +1,3080 @@
+[4f6b164d][engine]: running on unix-linux-ia32
+[4f6b164d][engine]: arch is little endian
+[4f6b164d][storage]: added path '$USERDIR' ('/home/jonathan/.teeworlds')
+[4f6b164d][storage]: added path '$DATADIR' ('data')
+[4f6b164d][storage]: added path '$CURRENTDIR' ('/home/jonathan/usr/games/teeworlds-0.6.1-x86')
+[4f6b164d][console]: failed to open 'autoexec.cfg'
+[4f6b164d][console]: executing '/home/jonathan/usr/etc/teeworlds_srv.cfg'
+[4f6b164d][server]: starting...
+[4f6b164d][datafile]: loading. filename='maps/dm1.map'
+[4f6b164d][datafile]: allocsize=2560
+[4f6b164d][datafile]: readsize=2396
+[4f6b164d][datafile]: swaplen=2416
+[4f6b164d][datafile]: item_size=2012
+[4f6b164d][datafile]: loading done. datafile='maps/dm1.map'
+[4f6b164d][server]: maps/dm1.map crc is f2159e6e
+[4f6b164d][server]: server name is 'JoJoS serveur'
+[4f6b164d][datafile]: loading data index=17 size=325 uncompressed=12000
+[4f6b164d][server]: version 0.6 626fce9a778df4d4
+[4f6b164d][engine/mastersrv]: refreshing master server addresses
+[4f6b164d][register]: refreshing ip addresses
+[4f6b164e][engine/mastersrv]: saving addresses
+[4f6b164e][register]: fetching server counts
+[4f6b164e][register]: chose 'master3.teeworlds.com' as master, sending heartbeats
+[4f6b1654][server]: player is ready. ClientID=0 addr=192.168.1.63:55255
+[4f6b1654][server]: 'pico' -> 'pico'
+[4f6b1654][server]: player has entered the game. ClientID=0 addr=192.168.1.63:55255
+[4f6b1654][chat]: *** 'pico' entered and joined the game
+[4f6b1654][game]: team_join player='0:pico' team=0
+[4f6b1658][server]: client dropped. cid=0 addr=192.168.1.63:55255 reason=''
+[4f6b1658][game]: kill killer='0:pico' victim='0:pico' weapon=-3 special=0
+[4f6b1658][chat]: *** 'pico' has left the game
+[4f6b1658][game]: leave player='0:pico'
+[4f6b165e][server]: player is ready. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b165f][server]: 'Philippe' -> 'Philippe'
+[4f6b165f][server]: player has entered the game. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b165f][chat]: *** 'Philippe' entered and joined the game
+[4f6b165f][game]: team_join player='0:Philippe' team=0
+[4f6b1663][game]: pickup player='0:Philippe' item=1/0
+[4f6b1664][game]: pickup player='0:Philippe' item=1/0
+[4f6b1664][game]: pickup player='0:Philippe' item=2/2
+[4f6b1666][game]: pickup player='0:Philippe' item=2/3
+[4f6b166a][game]: pickup player='0:Philippe' item=1/0
+[4f6b166a][game]: pickup player='0:Philippe' item=1/0
+[4f6b1670][server]: player is ready. ClientID=1 addr=192.168.1.186:49604
+[4f6b1670][server]: 'JoJoS' -> 'JoJoS'
+[4f6b1670][server]: player has entered the game. ClientID=1 addr=192.168.1.186:49604
+[4f6b1670][chat]: *** 'JoJoS' entered and joined the game
+[4f6b1670][game]: team_join player='1:JoJoS' team=0
+[4f6b167a][game]: pickup player='1:JoJoS' item=2/2
+[4f6b167b][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=3 special=0
+[4f6b167e][game]: pickup player='0:Philippe' item=2/3
+[4f6b167e][game]: pickup player='1:JoJoS' item=1/0
+[4f6b167e][game]: pickup player='1:JoJoS' item=1/0
+[4f6b167f][game]: pickup player='1:JoJoS' item=2/2
+[4f6b167f][server]: player is ready. ClientID=2 addr=192.168.1.10:45391
+[4f6b1680][server]: 'jb44444' -> 'jb44444'
+[4f6b1680][server]: player has entered the game. ClientID=2 addr=192.168.1.10:45391
+[4f6b1680][chat]: *** 'jb44444' entered and joined the game
+[4f6b1680][game]: team_join player='2:jb44444' team=0
+[4f6b1680][server]: player is ready. ClientID=3 addr=192.168.1.12:64005
+[4f6b1680][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1681][server]: 'Njut ' -> 'Njut'
+[4f6b1681][server]: player has entered the game. ClientID=3 addr=192.168.1.12:64005
+[4f6b1681][chat]: *** 'Njut' entered and joined the game
+[4f6b1681][game]: team_join player='3:Njut' team=0
+[4f6b1682][game]: pickup player='2:jb44444' item=1/0
+[4f6b1682][game]: pickup player='2:jb44444' item=1/0
+[4f6b1683][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1683][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1684][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1684][server]: player is ready. ClientID=4 addr=192.168.1.63:55255
+[4f6b1684][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1684][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1685][server]: 'pico' -> 'pico'
+[4f6b1685][server]: player has entered the game. ClientID=4 addr=192.168.1.63:55255
+[4f6b1685][chat]: *** 'pico' entered and joined the game
+[4f6b1685][game]: team_join player='4:pico' team=0
+[4f6b1687][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b168a][game]: pickup player='2:jb44444' item=1/0
+[4f6b168a][game]: pickup player='2:jb44444' item=1/0
+[4f6b168b][server]: player is ready. ClientID=5 addr=192.168.1.123:56437
+[4f6b168b][server]: 'Tee Manu' -> 'Tee Manu'
+[4f6b168b][server]: player has entered the game. ClientID=5 addr=192.168.1.123:56437
+[4f6b168b][chat]: *** 'Tee Manu' entered and joined the game
+[4f6b168b][game]: team_join player='5:Tee Manu' team=0
+[4f6b168d][game]: pickup player='4:pico' item=1/0
+[4f6b168f][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1690][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1690][game]: pickup player='2:jb44444' item=2/2
+[4f6b1691][game]: pickup player='4:pico' item=2/3
+[4f6b1692][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1692][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1694][game]: pickup player='3:Njut' item=0/0
+[4f6b1694][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1695][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1695][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1695][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1695][game]: kill killer='4:pico' victim='0:Philippe' weapon=3 special=0
+[4f6b1696][game]: pickup player='4:pico' item=0/0
+[4f6b1697][game]: pickup player='4:pico' item=0/0
+[4f6b1697][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1697][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b1698][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1699][game]: pickup player='3:Njut' item=0/0
+[4f6b1699][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1699][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b169a][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=3 special=0
+[4f6b169a][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b169e][game]: pickup player='1:JoJoS' item=1/0
+[4f6b169e][game]: pickup player='1:JoJoS' item=1/0
+[4f6b16a0][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b16a1][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b16a1][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b16a2][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b16a3][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b16a3][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b16a3][game]: pickup player='0:Philippe' item=2/2
+[4f6b16a4][game]: pickup player='2:jb44444' item=0/0
+[4f6b16a4][game]: kill killer='3:Njut' victim='0:Philippe' weapon=1 special=0
+[4f6b16a5][game]: pickup player='3:Njut' item=1/0
+[4f6b16a5][game]: pickup player='3:Njut' item=1/0
+[4f6b16a6][game]: pickup player='0:Philippe' item=2/3
+[4f6b16a6][game]: pickup player='2:jb44444' item=0/0
+[4f6b16a7][game]: pickup player='2:jb44444' item=0/0
+[4f6b16a7][game]: pickup player='4:pico' item=0/0
+[4f6b16a8][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=3 special=0
+[4f6b16a9][game]: pickup player='1:JoJoS' item=1/0
+[4f6b16aa][game]: pickup player='1:JoJoS' item=1/0
+[4f6b16aa][game]: pickup player='5:Tee Manu' item=3/5
+[4f6b16aa][game]: pickup player='2:jb44444' item=0/0
+[4f6b16ab][game]: kill killer='5:Tee Manu' victim='4:pico' weapon=5 special=0
+[4f6b16ab][game]: kill killer='3:Njut' victim='2:jb44444' weapon=1 special=0
+[4f6b16ac][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16ac][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16ac][game]: pickup player='1:JoJoS' item=1/0
+[4f6b16ac][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16ad][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16ad][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b16ad][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=3 special=0
+[4f6b16b0][game]: kill killer='5:Tee Manu' victim='1:JoJoS' weapon=5 special=0
+[4f6b16b0][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b16b0][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b16b1][game]: pickup player='0:Philippe' item=2/3
+[4f6b16b2][game]: pickup player='2:jb44444' item=1/0
+[4f6b16b2][game]: pickup player='2:jb44444' item=1/0
+[4f6b16b4][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=5 special=0
+[4f6b16b6][game]: pickup player='4:pico' item=2/3
+[4f6b16b6][game]: pickup player='0:Philippe' item=0/0
+[4f6b16b6][game]: pickup player='0:Philippe' item=0/0
+[4f6b16b8][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16b8][game]: pickup player='2:jb44444' item=2/2
+[4f6b16b8][game]: kill killer='4:pico' victim='5:Tee Manu' weapon=3 special=0
+[4f6b16b9][game]: pickup player='3:Njut' item=1/0
+[4f6b16b9][game]: pickup player='3:Njut' item=1/0
+[4f6b16ba][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b16ba][game]: kill killer='4:pico' victim='0:Philippe' weapon=3 special=0
+[4f6b16ba][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=2 special=0
+[4f6b16ba][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b16bb][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b16bd][game]: kill killer='2:jb44444' victim='3:Njut' weapon=2 special=0
+[4f6b16bd][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b16be][game]: kill killer='4:pico' victim='2:jb44444' weapon=3 special=0
+[4f6b16c0][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b16c0][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b16c1][game]: pickup player='1:JoJoS' item=2/3
+[4f6b16c2][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b16c3][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=1 special=0
+[4f6b16c3][game]: pickup player='4:pico' item=0/0
+[4f6b16c3][game]: pickup player='4:pico' item=1/0
+[4f6b16c3][game]: pickup player='4:pico' item=0/0
+[4f6b16c4][game]: pickup player='4:pico' item=0/0
+[4f6b16c4][game]: pickup player='4:pico' item=0/0
+[4f6b16c7][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b16c8][game]: kill killer='3:Njut' victim='5:Tee Manu' weapon=1 special=0
+[4f6b16c8][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16c8][game]: pickup player='2:jb44444' item=1/0
+[4f6b16c8][game]: pickup player='2:jb44444' item=1/0
+[4f6b16c8][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16c9][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=3 special=0
+[4f6b16c9][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16ca][game]: pickup player='0:Philippe' item=2/2
+[4f6b16cb][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b16cb][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b16cb][game]: pickup player='3:Njut' item=2/2
+[4f6b16cb][game]: pickup player='2:jb44444' item=2/3
+[4f6b16cb][game]: pickup player='3:Njut' item=1/0
+[4f6b16cb][game]: pickup player='3:Njut' item=1/0
+[4f6b16cd][game]: pickup player='4:pico' item=0/0
+[4f6b16ce][game]: pickup player='4:pico' item=0/0
+[4f6b16ce][game]: pickup player='4:pico' item=0/0
+[4f6b16cf][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=3 special=0
+[4f6b16d2][game]: pickup player='2:jb44444' item=2/3
+[4f6b16d4][game]: pickup player='4:pico' item=0/0
+[4f6b16d4][game]: pickup player='4:pico' item=0/0
+[4f6b16d4][game]: pickup player='4:pico' item=0/0
+[4f6b16d5][game]: pickup player='4:pico' item=1/0
+[4f6b16d5][game]: kill killer='3:Njut' victim='5:Tee Manu' weapon=2 special=0
+[4f6b16d5][game]: pickup player='4:pico' item=0/0
+[4f6b16d5][game]: kill killer='2:jb44444' victim='3:Njut' weapon=3 special=0
+[4f6b16d5][game]: pickup player='2:jb44444' item=1/0
+[4f6b16d6][game]: kill killer='2:jb44444' victim='4:pico' weapon=3 special=0
+[4f6b16d8][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16d9][game]: pickup player='0:Philippe' item=0/0
+[4f6b16db][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=1 special=0
+[4f6b16db][game]: pickup player='4:pico' item=2/3
+[4f6b16db][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16dd][game]: pickup player='2:jb44444' item=1/0
+[4f6b16dd][game]: pickup player='2:jb44444' item=1/0
+[4f6b16dd][game]: pickup player='3:Njut' item=1/0
+[4f6b16dd][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b16dd][game]: kill killer='4:pico' victim='1:JoJoS' weapon=3 special=0
+[4f6b16de][game]: pickup player='3:Njut' item=1/0
+[4f6b16df][game]: pickup player='1:JoJoS' item=2/2
+[4f6b16df][game]: kill killer='4:pico' victim='0:Philippe' weapon=3 special=0
+[4f6b16df][game]: pickup player='1:JoJoS' item=1/0
+[4f6b16df][game]: pickup player='1:JoJoS' item=1/0
+[4f6b16e0][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=2 special=0
+[4f6b16e2][game]: pickup player='1:JoJoS' item=2/3
+[4f6b16e3][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b16e6][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=0 special=0
+[4f6b16e6][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b16e7][game]: pickup player='3:Njut' item=1/0
+[4f6b16e8][game]: pickup player='3:Njut' item=1/0
+[4f6b16e8][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16e8][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16e9][game]: kill killer='3:Njut' victim='4:pico' weapon=1 special=0
+[4f6b16eb][game]: pickup player='2:jb44444' item=1/0
+[4f6b16ec][register]: refreshing ip addresses
+[4f6b16ec][register]: fetching server counts
+[4f6b16ec][register]: chose 'master2.teeworlds.com' as master, sending heartbeats
+[4f6b16ed][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b16ee][game]: pickup player='4:pico' item=2/2
+[4f6b16ee][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=1 special=0
+[4f6b16ef][game]: pickup player='1:JoJoS' item=2/2
+[4f6b16ef][game]: kill killer='0:Philippe' victim='3:Njut' weapon=1 special=0
+[4f6b16ef][game]: pickup player='1:JoJoS' item=1/0
+[4f6b16ef][game]: pickup player='1:JoJoS' item=1/0
+[4f6b16f1][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=2 special=0
+[4f6b16f1][game]: pickup player='3:Njut' item=1/0
+[4f6b16f1][game]: pickup player='3:Njut' item=1/0
+[4f6b16f2][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b16f3][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b16f3][game]: pickup player='4:pico' item=2/3
+[4f6b16f3][game]: kill killer='4:pico' victim='0:Philippe' weapon=3 special=0
+[4f6b16f5][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=2 special=0
+[4f6b16f5][game]: pickup player='4:pico' item=0/0
+[4f6b16f7][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16f7][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16f8][game]: kill killer='1:JoJoS' victim='4:pico' weapon=2 special=0
+[4f6b16f8][game]: pickup player='2:jb44444' item=1/0
+[4f6b16f9][game]: pickup player='2:jb44444' item=1/0
+[4f6b16fa][game]: kill killer='0:Philippe' victim='5:Tee Manu' weapon=0 special=0
+[4f6b16fd][game]: pickup player='1:JoJoS' item=2/2
+[4f6b16fe][game]: pickup player='1:JoJoS' item=0/0
+[4f6b16ff][game]: pickup player='0:Philippe' item=0/0
+[4f6b16ff][game]: kill killer='0:Philippe' victim='3:Njut' weapon=0 special=0
+[4f6b16ff][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1700][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1700][game]: pickup player='2:jb44444' item=2/3
+[4f6b1701][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1701][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1701][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1701][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1701][game]: pickup player='4:pico' item=1/0
+[4f6b1702][game]: pickup player='4:pico' item=1/0
+[4f6b1704][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1704][game]: kill killer='0:Philippe' victim='5:Tee Manu' weapon=0 special=0
+[4f6b1705][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b1705][game]: pickup player='4:pico' item=2/2
+[4f6b1705][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=3 special=0
+[4f6b1707][game]: pickup player='4:pico' item=3/5
+[4f6b1707][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1707][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1708][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1708][game]: pickup player='1:JoJoS' item=1/0
+[4f6b170b][game]: pickup player='3:Njut' item=0/0
+[4f6b170b][game]: pickup player='3:Njut' item=0/0
+[4f6b170b][game]: pickup player='3:Njut' item=0/0
+[4f6b170e][game]: kill killer='4:pico' victim='0:Philippe' weapon=5 special=0
+[4f6b170e][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b170f][game]: kill killer='3:Njut' victim='2:jb44444' weapon=1 special=0
+[4f6b170f][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1710][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1710][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1711][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1712][game]: pickup player='0:Philippe' item=2/3
+[4f6b1712][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1712][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1715][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1715][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1715][game]: kill killer='4:pico' victim='1:JoJoS' weapon=5 special=0
+[4f6b1715][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b1715][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b1716][game]: pickup player='4:pico' item=2/3
+[4f6b1717][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1717][game]: kill killer='0:Philippe' victim='4:pico' weapon=3 special=0
+[4f6b1717][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1718][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1718][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1718][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b171a][game]: pickup player='0:Philippe' item=0/0
+[4f6b171b][game]: kill killer='2:jb44444' victim='3:Njut' weapon=1 special=0
+[4f6b171d][game]: pickup player='0:Philippe' item=0/0
+[4f6b171d][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b171e][game]: pickup player='3:Njut' item=0/0
+[4f6b171e][game]: pickup player='1:JoJoS' item=0/0
+[4f6b171e][game]: pickup player='4:pico' item=1/0
+[4f6b171e][game]: pickup player='4:pico' item=1/0
+[4f6b171e][game]: pickup player='3:Njut' item=0/0
+[4f6b171f][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=1 special=0
+[4f6b1720][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1721][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1722][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1722][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1723][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1723][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1723][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1723][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1723][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1724][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1726][game]: pickup player='2:jb44444' item=2/3
+[4f6b1726][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1727][game]: kill killer='4:pico' victim='2:jb44444' weapon=1 special=0
+[4f6b1727][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=3 special=0
+[4f6b1728][game]: pickup player='3:Njut' item=1/0
+[4f6b1728][game]: pickup player='2:jb44444' item=2/2
+[4f6b1729][game]: pickup player='2:jb44444' item=1/0
+[4f6b1729][game]: pickup player='2:jb44444' item=1/0
+[4f6b1729][game]: kill killer='5:Tee Manu' victim='0:Philippe' weapon=3 special=0
+[4f6b172a][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b172c][game]: pickup player='4:pico' item=1/0
+[4f6b172c][game]: pickup player='4:pico' item=1/0
+[4f6b172c][game]: kill killer='2:jb44444' victim='3:Njut' weapon=2 special=0
+[4f6b172d][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=2 special=0
+[4f6b172f][game]: pickup player='1:JoJoS' item=1/0
+[4f6b172f][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1731][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1732][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1732][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1732][game]: kill killer='3:Njut' victim='4:pico' weapon=1 special=0
+[4f6b1733][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1734][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1734][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1735][game]: pickup player='0:Philippe' item=0/0
+[4f6b1735][game]: pickup player='0:Philippe' item=0/0
+[4f6b1736][game]: pickup player='3:Njut' item=0/0
+[4f6b1736][game]: pickup player='3:Njut' item=1/0
+[4f6b1736][game]: pickup player='3:Njut' item=0/0
+[4f6b1736][game]: pickup player='3:Njut' item=0/0
+[4f6b1736][game]: pickup player='3:Njut' item=0/0
+[4f6b1737][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1737][game]: kill killer='5:Tee Manu' victim='1:JoJoS' weapon=3 special=0
+[4f6b1739][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1739][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1739][game]: kill killer='0:Philippe' victim='5:Tee Manu' weapon=0 special=0
+[4f6b1739][game]: pickup player='0:Philippe' item=1/0
+[4f6b1739][game]: pickup player='4:pico' item=2/3
+[4f6b173d][game]: pickup player='2:jb44444' item=0/0
+[4f6b173d][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=2 special=0
+[4f6b1741][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1741][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1747][game]: dm2
+[4f6b1747][game]: start round type='DM' teamplay='0'
+[4f6b1747][datafile]: loading. filename='maps/dm2.map'
+[4f6b1747][datafile]: allocsize=2828
+[4f6b1747][datafile]: readsize=2676
+[4f6b1747][datafile]: swaplen=2696
+[4f6b1747][datafile]: item_size=2316
+[4f6b1747][datafile]: loading done. datafile='maps/dm2.map'
+[4f6b1747][server]: maps/dm2.map crc is 71839878
+[4f6b1747][datafile]: loading data index=12 size=844 uncompressed=46800
+[4f6b1747][server]: player is ready. ClientID=1 addr=192.168.1.186:49604
+[4f6b1747][server]: player is ready. ClientID=4 addr=192.168.1.63:55255
+[4f6b1747][server]: player is ready. ClientID=5 addr=192.168.1.123:56437
+[4f6b1747][server]: player is ready. ClientID=2 addr=192.168.1.10:45391
+[4f6b1747][server]: player is ready. ClientID=3 addr=192.168.1.12:64005
+[4f6b1747][server]: player is ready. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1748][server]: player has entered the game. ClientID=1 addr=192.168.1.186:49604
+[4f6b1748][chat]: *** 'JoJoS' entered and joined the game
+[4f6b1748][game]: team_join player='1:JoJoS' team=0
+[4f6b1748][server]: player has entered the game. ClientID=4 addr=192.168.1.63:55255
+[4f6b1748][chat]: *** 'pico' entered and joined the game
+[4f6b1748][game]: team_join player='4:pico' team=0
+[4f6b1748][server]: player has entered the game. ClientID=5 addr=192.168.1.123:56437
+[4f6b1748][chat]: *** 'Tee Manu' entered and joined the game
+[4f6b1748][game]: team_join player='5:Tee Manu' team=0
+[4f6b1748][server]: player has entered the game. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1748][chat]: *** 'Philippe' entered and joined the game
+[4f6b1748][game]: team_join player='0:Philippe' team=0
+[4f6b1748][server]: player has entered the game. ClientID=2 addr=192.168.1.10:45391
+[4f6b1748][chat]: *** 'jb44444' entered and joined the game
+[4f6b1748][game]: team_join player='2:jb44444' team=0
+[4f6b1748][server]: player has entered the game. ClientID=3 addr=192.168.1.12:64005
+[4f6b1748][chat]: *** 'Njut' entered and joined the game
+[4f6b1748][game]: team_join player='3:Njut' team=0
+[4f6b174b][game]: pickup player='4:pico' item=2/3
+[4f6b174b][game]: pickup player='5:Tee Manu' item=2/4
+[4f6b174b][game]: pickup player='2:jb44444' item=2/3
+[4f6b174c][game]: pickup player='3:Njut' item=1/0
+[4f6b174c][game]: pickup player='3:Njut' item=1/0
+[4f6b174c][game]: pickup player='3:Njut' item=1/0
+[4f6b174c][game]: pickup player='3:Njut' item=1/0
+[4f6b174c][game]: pickup player='3:Njut' item=1/0
+[4f6b174d][game]: pickup player='3:Njut' item=1/0
+[4f6b174d][game]: pickup player='1:JoJoS' item=2/3
+[4f6b174f][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b174f][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b174f][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1750][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1750][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1751][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1752][game]: kill killer='4:pico' victim='0:Philippe' weapon=3 special=0
+[4f6b1753][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=3 special=0
+[4f6b1757][game]: kill killer='4:pico' victim='3:Njut' weapon=3 special=0
+[4f6b1759][game]: pickup player='2:jb44444' item=2/2
+[4f6b175b][game]: kill killer='5:Tee Manu' victim='4:pico' weapon=3 special=0
+[4f6b175b][game]: pickup player='0:Philippe' item=2/3
+[4f6b175c][game]: pickup player='1:JoJoS' item=2/3
+[4f6b175e][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b175e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b175e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b175e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b175e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b175e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b175e][game]: pickup player='4:pico' item=2/3
+[4f6b175f][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1760][game]: pickup player='0:Philippe' item=2/4
+[4f6b1760][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1762][game]: pickup player='4:pico' item=1/0
+[4f6b1762][game]: pickup player='4:pico' item=1/0
+[4f6b1762][game]: pickup player='4:pico' item=1/0
+[4f6b1766][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1767][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b1769][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1769][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1769][game]: pickup player='1:JoJoS' item=1/0
+[4f6b176b][game]: pickup player='0:Philippe' item=0/0
+[4f6b176b][game]: pickup player='0:Philippe' item=0/0
+[4f6b176b][game]: pickup player='0:Philippe' item=0/0
+[4f6b176c][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b176d][game]: pickup player='1:JoJoS' item=2/3
+[4f6b176e][game]: pickup player='4:pico' item=1/0
+[4f6b176e][game]: pickup player='4:pico' item=1/0
+[4f6b176e][game]: pickup player='4:pico' item=1/0
+[4f6b176e][game]: pickup player='4:pico' item=1/0
+[4f6b176e][game]: pickup player='4:pico' item=1/0
+[4f6b176e][game]: pickup player='4:pico' item=1/0
+[4f6b176f][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=2 special=0
+[4f6b1772][game]: pickup player='3:Njut' item=2/4
+[4f6b1775][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=4 special=0
+[4f6b1775][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1777][game]: pickup player='2:jb44444' item=2/2
+[4f6b1778][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1779][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1779][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1779][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1779][game]: pickup player='0:Philippe' item=2/2
+[4f6b1779][game]: pickup player='3:Njut' item=2/3
+[4f6b177a][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b177a][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b177a][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b177b][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=3 special=0
+[4f6b177c][game]: pickup player='1:JoJoS' item=1/0
+[4f6b177c][game]: pickup player='1:JoJoS' item=1/0
+[4f6b177c][game]: pickup player='1:JoJoS' item=1/0
+[4f6b177c][game]: pickup player='4:pico' item=2/3
+[4f6b177e][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=3 special=0
+[4f6b177e][game]: kill killer='4:pico' victim='2:jb44444' weapon=3 special=0
+[4f6b177f][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b1780][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1780][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1780][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1780][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1780][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1780][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b178a][game]: pickup player='3:Njut' item=2/2
+[4f6b178b][game]: pickup player='1:JoJoS' item=0/0
+[4f6b178b][game]: pickup player='1:JoJoS' item=0/0
+[4f6b178b][game]: pickup player='1:JoJoS' item=0/0
+[4f6b178b][game]: pickup player='4:pico' item=2/3
+[4f6b178c][game]: pickup player='2:jb44444' item=2/2
+[4f6b178c][game]: kill killer='4:pico' victim='1:JoJoS' weapon=3 special=0
+[4f6b178c][register]: refreshing ip addresses
+[4f6b178c][register]: fetching server counts
+[4f6b178c][register]: chose 'master2.teeworlds.com' as master, sending heartbeats
+[4f6b178e][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b178e][game]: pickup player='1:JoJoS' item=2/3
+[4f6b178f][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=2 special=0
+[4f6b178f][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=0 special=0
+[4f6b178f][game]: pickup player='3:Njut' item=1/0
+[4f6b178f][game]: pickup player='3:Njut' item=1/0
+[4f6b178f][game]: pickup player='3:Njut' item=1/0
+[4f6b178f][game]: pickup player='3:Njut' item=1/0
+[4f6b178f][game]: pickup player='3:Njut' item=1/0
+[4f6b1791][game]: kill killer='4:pico' victim='0:Philippe' weapon=3 special=0
+[4f6b1792][game]: pickup player='5:Tee Manu' item=2/4
+[4f6b1794][game]: kill killer='3:Njut' victim='4:pico' weapon=2 special=0
+[4f6b1795][game]: pickup player='0:Philippe' item=1/0
+[4f6b1795][game]: pickup player='0:Philippe' item=1/0
+[4f6b1795][game]: pickup player='0:Philippe' item=1/0
+[4f6b1795][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1796][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1796][game]: pickup player='1:JoJoS' item=1/0
+[4f6b179c][game]: pickup player='3:Njut' item=0/0
+[4f6b179c][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b179c][game]: pickup player='3:Njut' item=0/0
+[4f6b179c][game]: pickup player='3:Njut' item=0/0
+[4f6b179e][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=3 special=0
+[4f6b17a1][game]: kill killer='5:Tee Manu' victim='5:Tee Manu' weapon=3 special=0
+[4f6b17a1][game]: pickup player='2:jb44444' item=0/0
+[4f6b17a1][game]: pickup player='2:jb44444' item=0/0
+[4f6b17a1][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=0 special=0
+[4f6b17a2][game]: kill killer='4:pico' victim='1:JoJoS' weapon=1 special=0
+[4f6b17a3][game]: pickup player='2:jb44444' item=0/0
+[4f6b17a3][game]: pickup player='4:pico' item=2/3
+[4f6b17a4][game]: pickup player='0:Philippe' item=2/4
+[4f6b17a5][game]: pickup player='1:JoJoS' item=2/3
+[4f6b17a5][game]: pickup player='3:Njut' item=2/2
+[4f6b17a7][game]: pickup player='4:pico' item=1/0
+[4f6b17a7][game]: pickup player='4:pico' item=1/0
+[4f6b17a7][game]: pickup player='4:pico' item=1/0
+[4f6b17a7][game]: pickup player='4:pico' item=1/0
+[4f6b17a7][game]: pickup player='4:pico' item=1/0
+[4f6b17a7][game]: pickup player='4:pico' item=1/0
+[4f6b17a7][game]: pickup player='2:jb44444' item=1/0
+[4f6b17a8][game]: pickup player='2:jb44444' item=1/0
+[4f6b17a8][game]: pickup player='2:jb44444' item=1/0
+[4f6b17a8][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b17a9][game]: pickup player='2:jb44444' item=0/0
+[4f6b17a9][game]: pickup player='2:jb44444' item=0/0
+[4f6b17a9][game]: pickup player='2:jb44444' item=0/0
+[4f6b17aa][game]: pickup player='1:JoJoS' item=1/0
+[4f6b17aa][game]: pickup player='1:JoJoS' item=1/0
+[4f6b17aa][game]: pickup player='1:JoJoS' item=1/0
+[4f6b17ac][game]: pickup player='3:Njut' item=2/3
+[4f6b17ae][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=0 special=0
+[4f6b17b0][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=4 special=0
+[4f6b17b4][game]: kill killer='4:pico' victim='0:Philippe' weapon=1 special=0
+[4f6b17b6][game]: pickup player='5:Tee Manu' item=2/4
+[4f6b17b7][game]: pickup player='4:pico' item=1/0
+[4f6b17b7][game]: pickup player='4:pico' item=1/0
+[4f6b17b7][game]: pickup player='4:pico' item=1/0
+[4f6b17b7][game]: pickup player='4:pico' item=1/0
+[4f6b17b8][game]: pickup player='1:JoJoS' item=1/0
+[4f6b17b8][game]: pickup player='1:JoJoS' item=1/0
+[4f6b17b8][game]: pickup player='2:jb44444' item=3/5
+[4f6b17b9][game]: pickup player='4:pico' item=2/2
+[4f6b17ba][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b17bc][game]: pickup player='2:jb44444' item=1/0
+[4f6b17bc][game]: pickup player='2:jb44444' item=1/0
+[4f6b17bc][game]: pickup player='2:jb44444' item=1/0
+[4f6b17bf][game]: kill killer='3:Njut' victim='4:pico' weapon=3 special=0
+[4f6b17c1][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=3 special=0
+[4f6b17c2][game]: kill killer='2:jb44444' victim='3:Njut' weapon=5 special=0
+[4f6b17c2][game]: pickup player='0:Philippe' item=2/3
+[4f6b17c3][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b17c3][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b17c3][game]: pickup player='4:pico' item=1/0
+[4f6b17c3][game]: pickup player='4:pico' item=1/0
+[4f6b17c4][game]: pickup player='1:JoJoS' item=2/3
+[4f6b17c5][game]: kill killer='5:Tee Manu' victim='0:Philippe' weapon=3 special=0
+[4f6b17c8][game]: pickup player='4:pico' item=2/3
+[4f6b17c8][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b17c8][game]: pickup player='2:jb44444' item=2/2
+[4f6b17ca][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b17ca][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b17ca][game]: pickup player='4:pico' item=2/4
+[4f6b17ca][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b17cb][game]: pickup player='3:Njut' item=2/2
+[4f6b17cd][game]: pickup player='1:JoJoS' item=1/0
+[4f6b17ce][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b17ce][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b17ce][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b17cf][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b17cf][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b17cf][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b17cf][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b17cf][game]: pickup player='2:jb44444' item=1/0
+[4f6b17cf][game]: pickup player='2:jb44444' item=1/0
+[4f6b17cf][game]: pickup player='2:jb44444' item=1/0
+[4f6b17d0][game]: pickup player='2:jb44444' item=1/0
+[4f6b17d0][game]: pickup player='2:jb44444' item=1/0
+[4f6b17d0][game]: pickup player='2:jb44444' item=1/0
+[4f6b17d1][game]: kill killer='0:Philippe' victim='3:Njut' weapon=0 special=0
+[4f6b17d2][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b17d2][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b17d2][game]: pickup player='1:JoJoS' item=0/0
+[4f6b17d2][game]: pickup player='1:JoJoS' item=0/0
+[4f6b17d2][game]: pickup player='1:JoJoS' item=0/0
+[4f6b17d4][game]: kill killer='2:jb44444' victim='4:pico' weapon=2 special=0
+[4f6b17d5][game]: pickup player='3:Njut' item=2/3
+[4f6b17d5][game]: pickup player='1:JoJoS' item=1/0
+[4f6b17d5][game]: pickup player='1:JoJoS' item=1/0
+[4f6b17d7][game]: pickup player='0:Philippe' item=2/3
+[4f6b17d7][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b17da][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b17db][game]: pickup player='4:pico' item=2/2
+[4f6b17dc][game]: pickup player='3:Njut' item=1/0
+[4f6b17de][game]: pickup player='1:JoJoS' item=2/2
+[4f6b17df][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=2 special=0
+[4f6b17e1][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b17e1][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b17e1][game]: kill killer='0:Philippe' victim='4:pico' weapon=3 special=0
+[4f6b17e1][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=3 special=0
+[4f6b17e1][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=3 special=0
+[4f6b17e3][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b17e3][game]: pickup player='4:pico' item=2/4
+[4f6b17e5][game]: pickup player='2:jb44444' item=2/3
+[4f6b17e5][game]: pickup player='0:Philippe' item=1/0
+[4f6b17e8][game]: pickup player='1:JoJoS' item=2/3
+[4f6b17e9][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b17eb][game]: kill killer='3:Njut' victim='2:jb44444' weapon=3 special=0
+[4f6b17ed][game]: pickup player='1:JoJoS' item=1/0
+[4f6b17ed][game]: pickup player='1:JoJoS' item=1/0
+[4f6b17ed][game]: pickup player='1:JoJoS' item=1/0
+[4f6b17ee][game]: pickup player='3:Njut' item=1/0
+[4f6b17ee][game]: pickup player='3:Njut' item=1/0
+[4f6b17ee][game]: pickup player='3:Njut' item=1/0
+[4f6b17ee][game]: pickup player='3:Njut' item=1/0
+[4f6b17ef][game]: pickup player='3:Njut' item=1/0
+[4f6b17f0][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b17f0][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b17f0][game]: pickup player='1:JoJoS' item=2/3
+[4f6b17f1][game]: pickup player='3:Njut' item=1/0
+[4f6b17f4][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=3 special=0
+[4f6b17f5][game]: pickup player='0:Philippe' item=2/4
+[4f6b17f6][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b17f6][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b17f6][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b17f6][game]: pickup player='4:pico' item=0/0
+[4f6b17f6][game]: pickup player='4:pico' item=0/0
+[4f6b17f6][game]: pickup player='4:pico' item=0/0
+[4f6b17f6][game]: pickup player='2:jb44444' item=2/2
+[4f6b17f8][game]: pickup player='0:Philippe' item=2/3
+[4f6b17f9][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b17fc][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b17fd][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b17fe][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1800][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1800][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1800][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1800][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1800][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1800][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1800][game]: pickup player='4:pico' item=2/3
+[4f6b1801][game]: pickup player='2:jb44444' item=1/0
+[4f6b1801][game]: pickup player='2:jb44444' item=1/0
+[4f6b1801][game]: pickup player='2:jb44444' item=1/0
+[4f6b1803][game]: pickup player='0:Philippe' item=2/3
+[4f6b1806][game]: pickup player='3:Njut' item=0/0
+[4f6b1806][game]: pickup player='3:Njut' item=0/0
+[4f6b1806][game]: pickup player='3:Njut' item=0/0
+[4f6b1809][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b180c][game]: pickup player='1:JoJoS' item=2/3
+[4f6b180d][game]: pickup player='1:JoJoS' item=0/0
+[4f6b180d][game]: pickup player='1:JoJoS' item=0/0
+[4f6b180d][game]: kill killer='0:Philippe' victim='4:pico' weapon=3 special=0
+[4f6b1810][game]: pickup player='4:pico' item=2/3
+[4f6b1810][game]: pickup player='0:Philippe' item=2/2
+[4f6b1811][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1811][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1811][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1811][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b1813][game]: pickup player='0:Philippe' item=2/4
+[4f6b1814][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1815][game]: pickup player='4:pico' item=3/5
+[4f6b1816][game]: kill killer='4:pico' victim='5:Tee Manu' weapon=5 special=0
+[4f6b181a][game]: kill killer='4:pico' victim='3:Njut' weapon=5 special=0
+[4f6b181c][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b181d][game]: kill killer='4:pico' victim='2:jb44444' weapon=5 special=0
+[4f6b181d][game]: kill killer='1:JoJoS' victim='1:JoJoS' weapon=3 special=0
+[4f6b1820][game]: pickup player='4:pico' item=1/0
+[4f6b1820][game]: pickup player='4:pico' item=1/0
+[4f6b1820][game]: pickup player='4:pico' item=1/0
+[4f6b1820][game]: pickup player='4:pico' item=1/0
+[4f6b1820][game]: pickup player='4:pico' item=1/0
+[4f6b1820][game]: pickup player='4:pico' item=1/0
+[4f6b1820][game]: pickup player='2:jb44444' item=2/3
+[4f6b1820][game]: pickup player='3:Njut' item=1/0
+[4f6b1820][game]: pickup player='3:Njut' item=1/0
+[4f6b1820][game]: pickup player='3:Njut' item=1/0
+[4f6b1821][game]: pickup player='0:Philippe' item=0/0
+[4f6b1821][game]: pickup player='0:Philippe' item=0/0
+[4f6b1821][game]: pickup player='0:Philippe' item=0/0
+[4f6b1822][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1822][game]: pickup player='0:Philippe' item=2/3
+[4f6b1823][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1825][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1825][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1825][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1826][game]: kill killer='4:pico' victim='0:Philippe' weapon=3 special=0
+[4f6b1826][game]: kill killer='4:pico' victim='2:jb44444' weapon=3 special=0
+[4f6b1827][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1827][game]: kill killer='4:pico' victim='3:Njut' weapon=3 special=0
+[4f6b182b][game]: pickup player='3:Njut' item=2/4
+[4f6b182c][register]: refreshing ip addresses
+[4f6b182c][register]: fetching server counts
+[4f6b182c][register]: chose 'master3.teeworlds.com' as master, sending heartbeats
+[4f6b1830][game]: kill killer='2:jb44444' victim='4:pico' weapon=1 special=0
+[4f6b1832][game]: pickup player='0:Philippe' item=2/3
+[4f6b1833][game]: kill killer='3:Njut' victim='5:Tee Manu' weapon=4 special=0
+[4f6b1834][game]: pickup player='2:jb44444' item=1/0
+[4f6b1834][game]: pickup player='2:jb44444' item=1/0
+[4f6b1834][game]: pickup player='2:jb44444' item=1/0
+[4f6b1834][game]: pickup player='2:jb44444' item=1/0
+[4f6b1834][game]: pickup player='2:jb44444' item=1/0
+[4f6b1834][game]: pickup player='4:pico' item=2/3
+[4f6b1836][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=1 special=0
+[4f6b1836][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1837][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b1838][game]: pickup player='4:pico' item=1/0
+[4f6b1838][game]: pickup player='4:pico' item=1/0
+[4f6b1838][game]: pickup player='4:pico' item=1/0
+[4f6b1839][game]: pickup player='2:jb44444' item=2/3
+[4f6b1839][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1839][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1839][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b183b][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b183c][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=3 special=0
+[4f6b183e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b183e][game]: pickup player='0:Philippe' item=2/4
+[4f6b1840][game]: pickup player='3:Njut' item=2/2
+[4f6b1843][game]: kill killer='5:Tee Manu' victim='4:pico' weapon=3 special=0
+[4f6b1844][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1844][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1844][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1844][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1845][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1845][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1845][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1845][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1845][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1848][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1848][game]: kill killer='5:Tee Manu' victim='1:JoJoS' weapon=3 special=0
+[4f6b1849][game]: pickup player='4:pico' item=2/2
+[4f6b184a][game]: pickup player='2:jb44444' item=2/3
+[4f6b184c][game]: pickup player='3:Njut' item=2/3
+[4f6b184e][game]: pickup player='2:jb44444' item=2/2
+[4f6b184e][game]: pickup player='1:JoJoS' item=2/3
+[4f6b184f][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b184f][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b184f][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1850][game]: kill killer='4:pico' victim='2:jb44444' weapon=2 special=0
+[4f6b1851][game]: pickup player='3:Njut' item=1/0
+[4f6b1851][game]: pickup player='3:Njut' item=1/0
+[4f6b1851][game]: pickup player='3:Njut' item=1/0
+[4f6b1853][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1853][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b1855][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b1855][game]: pickup player='0:Philippe' item=2/4
+[4f6b1858][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1858][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1858][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1858][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1859][game]: pickup player='1:JoJoS' item=1/0
+[4f6b185b][game]: kill killer='2:jb44444' victim='3:Njut' weapon=1 special=0
+[4f6b185b][game]: kill killer='5:Tee Manu' victim='4:pico' weapon=1 special=0
+[4f6b185c][game]: pickup player='0:Philippe' item=2/3
+[4f6b185c][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b185c][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b185c][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b185e][game]: pickup player='3:Njut' item=2/3
+[4f6b185e][game]: pickup player='2:jb44444' item=0/0
+[4f6b185e][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b185e][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b185e][game]: pickup player='2:jb44444' item=0/0
+[4f6b185e][game]: pickup player='2:jb44444' item=0/0
+[4f6b1861][game]: pickup player='2:jb44444' item=1/0
+[4f6b1861][game]: pickup player='2:jb44444' item=1/0
+[4f6b1861][game]: pickup player='2:jb44444' item=1/0
+[4f6b1862][game]: pickup player='4:pico' item=2/3
+[4f6b1865][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=0 special=0
+[4f6b1868][game]: pickup player='3:Njut' item=2/4
+[4f6b1868][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1868][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1869][game]: pickup player='4:pico' item=1/0
+[4f6b1869][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1869][game]: pickup player='4:pico' item=1/0
+[4f6b1869][game]: pickup player='4:pico' item=1/0
+[4f6b1869][game]: pickup player='4:pico' item=1/0
+[4f6b1869][game]: pickup player='4:pico' item=1/0
+[4f6b1869][game]: pickup player='4:pico' item=1/0
+[4f6b186a][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b186d][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b186d][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b186d][game]: kill killer='3:Njut' victim='2:jb44444' weapon=4 special=0
+[4f6b186e][game]: pickup player='1:JoJoS' item=0/0
+[4f6b186e][game]: pickup player='1:JoJoS' item=0/0
+[4f6b186e][game]: pickup player='1:JoJoS' item=0/0
+[4f6b186f][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b186f][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1870][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1870][game]: pickup player='3:Njut' item=1/0
+[4f6b1870][game]: pickup player='3:Njut' item=1/0
+[4f6b1870][game]: pickup player='3:Njut' item=1/0
+[4f6b1870][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b187a][game]: dm8
+[4f6b187a][game]: start round type='DM' teamplay='0'
+[4f6b187a][datafile]: loading. filename='maps/dm8.map'
+[4f6b187a][datafile]: allocsize=21756
+[4f6b187a][datafile]: readsize=21548
+[4f6b187a][datafile]: swaplen=21568
+[4f6b187a][datafile]: item_size=20604
+[4f6b187a][datafile]: loading done. datafile='maps/dm8.map'
+[4f6b187a][server]: maps/dm8.map crc is 85f11ed6
+[4f6b187a][datafile]: loading data index=26 size=277 uncompressed=12400
+[4f6b187a][server]: player is ready. ClientID=4 addr=192.168.1.63:55255
+[4f6b187a][server]: player is ready. ClientID=1 addr=192.168.1.186:49604
+[4f6b187a][server]: player is ready. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b187a][server]: player is ready. ClientID=5 addr=192.168.1.123:56437
+[4f6b187a][server]: player is ready. ClientID=2 addr=192.168.1.10:45391
+[4f6b187b][server]: player is ready. ClientID=3 addr=192.168.1.12:64005
+[4f6b187b][server]: player has entered the game. ClientID=4 addr=192.168.1.63:55255
+[4f6b187b][chat]: *** 'pico' entered and joined the game
+[4f6b187b][game]: team_join player='4:pico' team=0
+[4f6b187b][server]: player has entered the game. ClientID=1 addr=192.168.1.186:49604
+[4f6b187b][chat]: *** 'JoJoS' entered and joined the game
+[4f6b187b][game]: team_join player='1:JoJoS' team=0
+[4f6b187b][server]: player has entered the game. ClientID=5 addr=192.168.1.123:56437
+[4f6b187b][chat]: *** 'Tee Manu' entered and joined the game
+[4f6b187b][game]: team_join player='5:Tee Manu' team=0
+[4f6b187b][server]: player has entered the game. ClientID=2 addr=192.168.1.10:45391
+[4f6b187b][chat]: *** 'jb44444' entered and joined the game
+[4f6b187b][game]: team_join player='2:jb44444' team=0
+[4f6b187b][server]: player has entered the game. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b187b][chat]: *** 'Philippe' entered and joined the game
+[4f6b187b][game]: team_join player='0:Philippe' team=0
+[4f6b187c][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b187c][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b187d][server]: player has entered the game. ClientID=3 addr=192.168.1.12:64005
+[4f6b187d][chat]: *** 'Njut' entered and joined the game
+[4f6b187d][game]: team_join player='3:Njut' team=0
+[4f6b187d][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b187d][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b187d][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b187e][game]: pickup player='1:JoJoS' item=2/3
+[4f6b187e][game]: pickup player='2:jb44444' item=2/3
+[4f6b187f][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b187f][game]: pickup player='2:jb44444' item=1/0
+[4f6b187f][game]: pickup player='2:jb44444' item=1/0
+[4f6b187f][game]: pickup player='2:jb44444' item=1/0
+[4f6b1880][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1880][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1880][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1880][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1881][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=3 special=0
+[4f6b1882][game]: pickup player='4:pico' item=2/2
+[4f6b1883][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=3 special=0
+[4f6b1883][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1883][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1883][game]: pickup player='3:Njut' item=2/2
+[4f6b1885][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1887][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=3 special=0
+[4f6b1887][game]: kill killer='2:jb44444' victim='4:pico' weapon=3 special=0
+[4f6b188a][game]: pickup player='1:JoJoS' item=0/0
+[4f6b188b][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b188b][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b188d][game]: kill killer='0:Philippe' victim='3:Njut' weapon=0 special=0
+[4f6b188e][game]: pickup player='4:pico' item=2/3
+[4f6b188e][game]: pickup player='4:pico' item=1/0
+[4f6b188e][game]: pickup player='4:pico' item=1/0
+[4f6b188e][game]: pickup player='4:pico' item=1/0
+[4f6b1890][game]: pickup player='3:Njut' item=2/3
+[4f6b1890][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1891][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1892][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1892][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1893][game]: kill killer='3:Njut' victim='3:Njut' weapon=3 special=0
+[4f6b1893][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1894][game]: pickup player='2:jb44444' item=1/0
+[4f6b1894][game]: pickup player='2:jb44444' item=1/0
+[4f6b1894][game]: pickup player='2:jb44444' item=1/0
+[4f6b1894][game]: pickup player='2:jb44444' item=1/0
+[4f6b1895][game]: pickup player='3:Njut' item=2/2
+[4f6b1898][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1898][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b189c][game]: kill killer='3:Njut' victim='5:Tee Manu' weapon=2 special=0
+[4f6b189c][game]: pickup player='4:pico' item=0/0
+[4f6b189c][game]: pickup player='4:pico' item=0/0
+[4f6b189d][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=1 special=0
+[4f6b189e][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b189e][game]: pickup player='1:JoJoS' item=1/0
+[4f6b189e][game]: pickup player='3:Njut' item=0/0
+[4f6b189e][game]: pickup player='3:Njut' item=0/0
+[4f6b189f][game]: pickup player='3:Njut' item=0/0
+[4f6b189f][game]: pickup player='4:pico' item=2/3
+[4f6b18a1][game]: kill killer='5:Tee Manu' victim='0:Philippe' weapon=3 special=0
+[4f6b18a2][game]: pickup player='1:JoJoS' item=0/0
+[4f6b18a2][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=3 special=0
+[4f6b18a2][game]: pickup player='1:JoJoS' item=0/0
+[4f6b18a3][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=3 special=0
+[4f6b18a3][game]: kill killer='5:Tee Manu' victim='5:Tee Manu' weapon=3 special=0
+[4f6b18a3][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18a4][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18a4][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18a4][game]: pickup player='0:Philippe' item=1/0
+[4f6b18a5][game]: pickup player='0:Philippe' item=1/0
+[4f6b18a5][game]: pickup player='1:JoJoS' item=2/2
+[4f6b18a6][game]: pickup player='3:Njut' item=2/3
+[4f6b18a7][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18a7][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18a7][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18a7][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18a8][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=-1 special=0
+[4f6b18ac][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b18ad][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b18ad][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b18ad][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b18ae][game]: pickup player='0:Philippe' item=1/0
+[4f6b18ae][game]: pickup player='0:Philippe' item=2/3
+[4f6b18b1][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b18b2][game]: kill killer='3:Njut' victim='5:Tee Manu' weapon=3 special=0
+[4f6b18b5][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b18b6][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18b6][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18b6][game]: pickup player='3:Njut' item=0/0
+[4f6b18b6][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18b6][game]: pickup player='4:pico' item=1/0
+[4f6b18b6][game]: pickup player='4:pico' item=1/0
+[4f6b18b7][game]: pickup player='1:JoJoS' item=2/2
+[4f6b18b7][game]: pickup player='0:Philippe' item=2/3
+[4f6b18b8][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b18b8][game]: kill killer='1:JoJoS' victim='4:pico' weapon=2 special=0
+[4f6b18ba][game]: kill killer='5:Tee Manu' victim='1:JoJoS' weapon=3 special=0
+[4f6b18bc][game]: kill killer='5:Tee Manu' victim='4:pico' weapon=3 special=0
+[4f6b18bd][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=0 special=0
+[4f6b18bd][game]: pickup player='1:JoJoS' item=2/2
+[4f6b18be][game]: pickup player='4:pico' item=1/0
+[4f6b18be][game]: pickup player='4:pico' item=2/3
+[4f6b18bf][game]: kill killer='4:pico' victim='2:jb44444' weapon=3 special=0
+[4f6b18bf][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b18c1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18c1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18c1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18c1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18c4][game]: pickup player='3:Njut' item=2/3
+[4f6b18c4][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=2 special=0
+[4f6b18c5][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=-1 special=0
+[4f6b18c5][game]: pickup player='3:Njut' item=1/0
+[4f6b18c5][game]: pickup player='3:Njut' item=1/0
+[4f6b18c6][game]: pickup player='4:pico' item=1/0
+[4f6b18c7][game]: pickup player='0:Philippe' item=2/2
+[4f6b18c7][game]: pickup player='3:Njut' item=0/0
+[4f6b18c7][register]: refreshing ip addresses
+[4f6b18c7][register]: fetching server counts
+[4f6b18c7][game]: pickup player='3:Njut' item=0/0
+[4f6b18c7][register]: chose 'master2.teeworlds.com' as master, sending heartbeats
+[4f6b18c7][game]: pickup player='3:Njut' item=0/0
+[4f6b18c8][game]: pickup player='3:Njut' item=0/0
+[4f6b18c8][game]: pickup player='1:JoJoS' item=2/3
+[4f6b18c8][game]: kill killer='4:pico' victim='4:pico' weapon=3 special=0
+[4f6b18c9][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18ca][game]: pickup player='2:jb44444' item=0/0
+[4f6b18ca][game]: pickup player='2:jb44444' item=0/0
+[4f6b18ca][game]: pickup player='2:jb44444' item=0/0
+[4f6b18cb][game]: pickup player='4:pico' item=0/0
+[4f6b18cc][game]: kill killer='3:Njut' victim='0:Philippe' weapon=3 special=0
+[4f6b18cc][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18cd][game]: pickup player='3:Njut' item=1/0
+[4f6b18ce][game]: pickup player='4:pico' item=2/3
+[4f6b18cf][game]: kill killer='4:pico' victim='2:jb44444' weapon=3 special=0
+[4f6b18d1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18d1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18d1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18d1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18d2][game]: kill killer='4:pico' victim='3:Njut' weapon=3 special=0
+[4f6b18d3][game]: kill killer='5:Tee Manu' victim='4:pico' weapon=1 special=0
+[4f6b18d5][game]: pickup player='4:pico' item=2/3
+[4f6b18d6][game]: pickup player='4:pico' item=1/0
+[4f6b18d6][game]: pickup player='4:pico' item=1/0
+[4f6b18d7][game]: pickup player='3:Njut' item=2/2
+[4f6b18d7][game]: pickup player='1:JoJoS' item=3/5
+[4f6b18d8][game]: kill killer='3:Njut' victim='0:Philippe' weapon=2 special=0
+[4f6b18da][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18da][game]: pickup player='0:Philippe' item=2/3
+[4f6b18da][game]: kill killer='4:pico' victim='4:pico' weapon=3 special=0
+[4f6b18da][game]: kill killer='4:pico' victim='1:JoJoS' weapon=3 special=0
+[4f6b18da][game]: kill killer='2:jb44444' victim='3:Njut' weapon=1 special=0
+[4f6b18dc][game]: pickup player='1:JoJoS' item=2/2
+[4f6b18dd][game]: pickup player='2:jb44444' item=0/0
+[4f6b18dd][game]: pickup player='2:jb44444' item=0/0
+[4f6b18dd][game]: pickup player='2:jb44444' item=0/0
+[4f6b18de][game]: pickup player='0:Philippe' item=1/0
+[4f6b18de][game]: pickup player='0:Philippe' item=1/0
+[4f6b18de][game]: pickup player='0:Philippe' item=1/0
+[4f6b18de][game]: pickup player='0:Philippe' item=2/3
+[4f6b18df][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=2 special=0
+[4f6b18df][game]: kill killer='2:jb44444' victim='3:Njut' weapon=1 special=0
+[4f6b18e3][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=3 special=0
+[4f6b18e3][game]: kill killer='4:pico' victim='0:Philippe' weapon=1 special=0
+[4f6b18e3][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18e3][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18e3][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18e3][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18e6][game]: pickup player='3:Njut' item=0/0
+[4f6b18e8][game]: pickup player='0:Philippe' item=2/3
+[4f6b18e8][game]: pickup player='4:pico' item=2/2
+[4f6b18e9][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=0 special=0
+[4f6b18ea][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b18ec][game]: kill killer='0:Philippe' victim='4:pico' weapon=3 special=0
+[4f6b18ec][game]: pickup player='3:Njut' item=2/2
+[4f6b18ec][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b18ee][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=3 special=0
+[4f6b18ee][game]: pickup player='3:Njut' item=0/0
+[4f6b18ee][game]: pickup player='3:Njut' item=0/0
+[4f6b18ee][game]: pickup player='3:Njut' item=0/0
+[4f6b18ee][game]: pickup player='3:Njut' item=0/0
+[4f6b18ef][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18ef][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18ef][game]: pickup player='1:JoJoS' item=2/3
+[4f6b18f1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b18f1][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b18f4][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=3 special=0
+[4f6b18f4][game]: pickup player='1:JoJoS' item=0/0
+[4f6b18f4][game]: pickup player='1:JoJoS' item=0/0
+[4f6b18f4][game]: kill killer='5:Tee Manu' victim='1:JoJoS' weapon=3 special=0
+[4f6b18f5][game]: pickup player='2:jb44444' item=1/0
+[4f6b18f5][game]: pickup player='2:jb44444' item=1/0
+[4f6b18f5][game]: pickup player='2:jb44444' item=1/0
+[4f6b18f6][game]: pickup player='4:pico' item=0/0
+[4f6b18f9][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18f9][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18f9][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18f9][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b18f9][game]: pickup player='4:pico' item=2/3
+[4f6b18fa][game]: pickup player='2:jb44444' item=2/2
+[4f6b18fb][game]: pickup player='1:JoJoS' item=2/3
+[4f6b18fe][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b18fe][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b18fe][game]: pickup player='1:JoJoS' item=0/0
+[4f6b18fe][game]: pickup player='1:JoJoS' item=0/0
+[4f6b18fe][game]: pickup player='1:JoJoS' item=0/0
+[4f6b18fe][game]: pickup player='1:JoJoS' item=0/0
+[4f6b18fe][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=2 special=0
+[4f6b18ff][game]: kill killer='2:jb44444' victim='4:pico' weapon=2 special=0
+[4f6b1900][game]: pickup player='3:Njut' item=0/0
+[4f6b1900][game]: pickup player='0:Philippe' item=0/0
+[4f6b1900][game]: pickup player='0:Philippe' item=0/0
+[4f6b1900][game]: pickup player='0:Philippe' item=0/0
+[4f6b1901][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1901][game]: pickup player='2:jb44444' item=1/0
+[4f6b1901][game]: pickup player='2:jb44444' item=1/0
+[4f6b1901][game]: pickup player='2:jb44444' item=1/0
+[4f6b1901][game]: pickup player='4:pico' item=2/2
+[4f6b1902][game]: kill killer='5:Tee Manu' victim='0:Philippe' weapon=3 special=0
+[4f6b1903][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=3 special=0
+[4f6b1904][game]: kill killer='4:pico' victim='3:Njut' weapon=2 special=0
+[4f6b1906][game]: pickup player='2:jb44444' item=1/0
+[4f6b1906][game]: pickup player='2:jb44444' item=1/0
+[4f6b1906][game]: pickup player='2:jb44444' item=1/0
+[4f6b1906][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=0 special=0
+[4f6b1909][game]: kill killer='4:pico' victim='0:Philippe' weapon=2 special=0
+[4f6b1909][game]: pickup player='3:Njut' item=2/3
+[4f6b1909][game]: pickup player='1:JoJoS' item=0/0
+[4f6b190a][game]: pickup player='1:JoJoS' item=2/2
+[4f6b190b][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b190b][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b190b][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b190b][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b190b][game]: pickup player='4:pico' item=0/0
+[4f6b190b][game]: pickup player='4:pico' item=0/0
+[4f6b190d][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b190d][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b190d][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=2 special=0
+[4f6b190d][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b190e][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=2 special=0
+[4f6b1910][game]: pickup player='3:Njut' item=2/3
+[4f6b1910][game]: kill killer='3:Njut' victim='4:pico' weapon=3 special=0
+[4f6b1910][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=3 special=0
+[4f6b1910][game]: pickup player='3:Njut' item=1/0
+[4f6b1910][game]: pickup player='3:Njut' item=1/0
+[4f6b1911][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=3 special=0
+[4f6b1912][game]: pickup player='4:pico' item=2/2
+[4f6b1913][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=1 special=0
+[4f6b1916][game]: kill killer='4:pico' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1916][game]: pickup player='3:Njut' item=1/0
+[4f6b1918][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=1 special=0
+[4f6b1918][game]: pickup player='2:jb44444' item=1/0
+[4f6b1918][game]: pickup player='3:Njut' item=0/0
+[4f6b1918][game]: pickup player='2:jb44444' item=1/0
+[4f6b1918][game]: pickup player='2:jb44444' item=1/0
+[4f6b191a][game]: pickup player='2:jb44444' item=2/3
+[4f6b191a][game]: kill killer='4:pico' victim='3:Njut' weapon=2 special=0
+[4f6b191b][game]: pickup player='2:jb44444' item=2/2
+[4f6b191c][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b191c][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b191e][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=2 special=0
+[4f6b191e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b191e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b191e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b191e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1920][game]: kill killer='2:jb44444' victim='4:pico' weapon=3 special=0
+[4f6b1920][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1921][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=3 special=0
+[4f6b1922][game]: pickup player='2:jb44444' item=2/3
+[4f6b1923][game]: pickup player='4:pico' item=1/0
+[4f6b1923][game]: pickup player='4:pico' item=1/0
+[4f6b1926][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1926][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b192b][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b192b][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1930][game]: dm9
+[4f6b1930][game]: start round type='DM' teamplay='0'
+[4f6b1930][datafile]: loading. filename='maps/dm9.map'
+[4f6b1930][datafile]: allocsize=3624
+[4f6b1930][datafile]: readsize=3468
+[4f6b1930][datafile]: swaplen=3488
+[4f6b1930][datafile]: item_size=3072
+[4f6b1930][datafile]: loading done. datafile='maps/dm9.map'
+[4f6b1930][server]: maps/dm9.map crc is 42d4777e
+[4f6b1930][datafile]: loading data index=15 size=230 uncompressed=9000
+[4f6b1930][server]: player is ready. ClientID=1 addr=192.168.1.186:49604
+[4f6b1930][server]: player is ready. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1930][server]: player is ready. ClientID=4 addr=192.168.1.63:55255
+[4f6b1930][server]: player is ready. ClientID=2 addr=192.168.1.10:45391
+[4f6b1930][server]: player is ready. ClientID=5 addr=192.168.1.123:56437
+[4f6b1930][server]: player is ready. ClientID=3 addr=192.168.1.12:64005
+[4f6b1931][server]: player has entered the game. ClientID=5 addr=192.168.1.123:56437
+[4f6b1931][chat]: *** 'Tee Manu' entered and joined the game
+[4f6b1931][game]: team_join player='5:Tee Manu' team=0
+[4f6b1931][server]: player has entered the game. ClientID=1 addr=192.168.1.186:49604
+[4f6b1931][chat]: *** 'JoJoS' entered and joined the game
+[4f6b1931][game]: team_join player='1:JoJoS' team=0
+[4f6b1931][server]: player has entered the game. ClientID=4 addr=192.168.1.63:55255
+[4f6b1931][chat]: *** 'pico' entered and joined the game
+[4f6b1931][game]: team_join player='4:pico' team=0
+[4f6b1931][server]: player has entered the game. ClientID=2 addr=192.168.1.10:45391
+[4f6b1931][chat]: *** 'jb44444' entered and joined the game
+[4f6b1931][game]: team_join player='2:jb44444' team=0
+[4f6b1931][game]: pickup player='4:pico' item=2/2
+[4f6b1931][server]: player has entered the game. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1931][chat]: *** 'Philippe' entered and joined the game
+[4f6b1931][game]: team_join player='0:Philippe' team=0
+[4f6b1933][game]: pickup player='2:jb44444' item=2/2
+[4f6b1933][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1933][server]: player has entered the game. ClientID=3 addr=192.168.1.12:64005
+[4f6b1933][chat]: *** 'Njut' entered and joined the game
+[4f6b1933][game]: team_join player='3:Njut' team=0
+[4f6b1933][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1934][game]: pickup player='4:pico' item=1/0
+[4f6b1934][game]: pickup player='4:pico' item=1/0
+[4f6b1937][game]: kill killer='4:pico' victim='0:Philippe' weapon=1 special=0
+[4f6b1938][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=2 special=0
+[4f6b193a][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=3 special=0
+[4f6b193a][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b193a][game]: pickup player='2:jb44444' item=1/0
+[4f6b193b][game]: pickup player='2:jb44444' item=1/0
+[4f6b193c][game]: pickup player='1:JoJoS' item=1/0
+[4f6b193c][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b193c][game]: pickup player='1:JoJoS' item=1/0
+[4f6b193d][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=0 special=0
+[4f6b193e][game]: pickup player='3:Njut' item=1/0
+[4f6b193f][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b1942][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=0 special=0
+[4f6b1943][game]: pickup player='0:Philippe' item=2/3
+[4f6b1944][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=1 special=0
+[4f6b1944][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1944][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=0 special=0
+[4f6b1944][game]: pickup player='2:jb44444' item=2/2
+[4f6b1945][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1945][game]: kill killer='3:Njut' victim='4:pico' weapon=1 special=0
+[4f6b1946][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=2 special=0
+[4f6b1946][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=3 special=0
+[4f6b1947][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1949][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=2 special=0
+[4f6b194a][game]: pickup player='3:Njut' item=1/0
+[4f6b194a][game]: pickup player='3:Njut' item=1/0
+[4f6b194c][game]: pickup player='4:pico' item=1/0
+[4f6b194c][game]: pickup player='4:pico' item=1/0
+[4f6b194e][game]: pickup player='2:jb44444' item=1/0
+[4f6b194e][game]: pickup player='2:jb44444' item=1/0
+[4f6b194f][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b194f][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b194f][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1950][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1950][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1950][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=1 special=0
+[4f6b1950][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=0 special=0
+[4f6b1950][game]: kill killer='4:pico' victim='2:jb44444' weapon=0 special=0
+[4f6b1953][game]: pickup player='4:pico' item=2/3
+[4f6b1954][game]: kill killer='1:JoJoS' victim='4:pico' weapon=0 special=0
+[4f6b1955][game]: pickup player='4:pico' item=2/3
+[4f6b1957][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=0 special=0
+[4f6b1958][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=0 special=0
+[4f6b1958][game]: kill killer='4:pico' victim='2:jb44444' weapon=3 special=0
+[4f6b1959][game]: pickup player='2:jb44444' item=2/2
+[4f6b1959][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b195c][game]: kill killer='4:pico' victim='5:Tee Manu' weapon=3 special=0
+[4f6b195c][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=2 special=0
+[4f6b195d][game]: kill killer='2:jb44444' victim='3:Njut' weapon=2 special=0
+[4f6b195e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b195f][game]: pickup player='2:jb44444' item=1/0
+[4f6b195f][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b195f][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b195f][game]: pickup player='2:jb44444' item=1/0
+[4f6b1961][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=0 special=0
+[4f6b1962][game]: kill killer='0:Philippe' victim='4:pico' weapon=1 special=0
+[4f6b1963][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1963][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1964][game]: pickup player='3:Njut' item=1/0
+[4f6b1964][game]: pickup player='3:Njut' item=1/0
+[4f6b1967][register]: refreshing ip addresses
+[4f6b1967][register]: fetching server counts
+[4f6b1967][register]: chose 'master1.teeworlds.com' as master, sending heartbeats
+[4f6b1967][game]: pickup player='0:Philippe' item=2/3
+[4f6b1969][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b196b][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b196c][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=1 special=0
+[4f6b196c][game]: pickup player='0:Philippe' item=2/2
+[4f6b196c][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b196d][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=2 special=0
+[4f6b196e][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=2 special=0
+[4f6b1970][game]: pickup player='2:jb44444' item=1/0
+[4f6b1970][game]: kill killer='5:Tee Manu' victim='0:Philippe' weapon=2 special=0
+[4f6b1971][game]: pickup player='4:pico' item=1/0
+[4f6b1971][game]: pickup player='4:pico' item=1/0
+[4f6b1971][game]: pickup player='2:jb44444' item=1/0
+[4f6b1971][game]: pickup player='2:jb44444' item=1/0
+[4f6b1971][game]: kill killer='1:JoJoS' victim='4:pico' weapon=0 special=0
+[4f6b1973][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1974][game]: kill killer='5:Tee Manu' victim='1:JoJoS' weapon=3 special=0
+[4f6b1974][game]: kill killer='5:Tee Manu' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1975][game]: kill killer='2:jb44444' victim='4:pico' weapon=0 special=0
+[4f6b1977][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=0 special=0
+[4f6b1978][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1978][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=1 special=0
+[4f6b1978][game]: kill killer='4:pico' victim='3:Njut' weapon=1 special=0
+[4f6b197b][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=0 special=0
+[4f6b197c][game]: pickup player='1:JoJoS' item=2/2
+[4f6b197c][game]: kill killer='5:Tee Manu' victim='0:Philippe' weapon=3 special=0
+[4f6b197c][game]: kill killer='5:Tee Manu' victim='4:pico' weapon=3 special=0
+[4f6b197d][game]: pickup player='4:pico' item=2/2
+[4f6b197f][game]: kill killer='4:pico' victim='2:jb44444' weapon=2 special=0
+[4f6b1980][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1980][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1981][game]: kill killer='5:Tee Manu' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1981][game]: pickup player='2:jb44444' item=1/0
+[4f6b1982][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=2 special=0
+[4f6b1982][game]: pickup player='2:jb44444' item=1/0
+[4f6b1982][game]: pickup player='2:jb44444' item=1/0
+[4f6b1984][game]: pickup player='4:pico' item=2/3
+[4f6b1984][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1984][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1985][game]: kill killer='4:pico' victim='4:pico' weapon=3 special=0
+[4f6b1987][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=0 special=0
+[4f6b1988][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1989][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=0 special=0
+[4f6b198a][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=0 special=0
+[4f6b198b][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=3 special=0
+[4f6b198b][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b1995][game]: dm6
+[4f6b1995][game]: start round type='DM' teamplay='0'
+[4f6b1995][datafile]: loading. filename='maps/dm6.map'
+[4f6b1995][datafile]: allocsize=2888
+[4f6b1995][datafile]: readsize=2720
+[4f6b1995][datafile]: swaplen=2740
+[4f6b1995][datafile]: item_size=2328
+[4f6b1995][datafile]: loading done. datafile='maps/dm6.map'
+[4f6b1995][server]: maps/dm6.map crc is 474da235
+[4f6b1995][datafile]: loading data index=17 size=559 uncompressed=28080
+[4f6b1995][server]: player is ready. ClientID=2 addr=192.168.1.10:45391
+[4f6b1995][server]: player is ready. ClientID=5 addr=192.168.1.123:56437
+[4f6b1995][server]: player is ready. ClientID=1 addr=192.168.1.186:49604
+[4f6b1995][server]: player is ready. ClientID=4 addr=192.168.1.63:55255
+[4f6b1995][server]: player is ready. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1995][server]: player is ready. ClientID=3 addr=192.168.1.12:64005
+[4f6b1996][server]: player has entered the game. ClientID=2 addr=192.168.1.10:45391
+[4f6b1996][chat]: *** 'jb44444' entered and joined the game
+[4f6b1996][game]: team_join player='2:jb44444' team=0
+[4f6b1996][server]: player has entered the game. ClientID=5 addr=192.168.1.123:56437
+[4f6b1996][chat]: *** 'Tee Manu' entered and joined the game
+[4f6b1996][game]: team_join player='5:Tee Manu' team=0
+[4f6b1996][server]: player has entered the game. ClientID=1 addr=192.168.1.186:49604
+[4f6b1996][chat]: *** 'JoJoS' entered and joined the game
+[4f6b1996][game]: team_join player='1:JoJoS' team=0
+[4f6b1996][server]: player has entered the game. ClientID=4 addr=192.168.1.63:55255
+[4f6b1996][chat]: *** 'pico' entered and joined the game
+[4f6b1996][game]: team_join player='4:pico' team=0
+[4f6b1996][server]: player has entered the game. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1996][chat]: *** 'Philippe' entered and joined the game
+[4f6b1996][game]: team_join player='0:Philippe' team=0
+[4f6b1997][server]: player has entered the game. ClientID=3 addr=192.168.1.12:64005
+[4f6b1997][chat]: *** 'Njut' entered and joined the game
+[4f6b1997][game]: team_join player='3:Njut' team=0
+[4f6b1998][game]: pickup player='4:pico' item=2/2
+[4f6b1999][game]: pickup player='2:jb44444' item=1/0
+[4f6b1999][game]: pickup player='4:pico' item=2/4
+[4f6b1999][game]: pickup player='2:jb44444' item=1/0
+[4f6b1999][game]: pickup player='2:jb44444' item=1/0
+[4f6b1999][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1999][game]: pickup player='0:Philippe' item=2/3
+[4f6b199a][game]: pickup player='3:Njut' item=2/3
+[4f6b199b][game]: pickup player='1:JoJoS' item=1/0
+[4f6b199b][game]: pickup player='1:JoJoS' item=1/0
+[4f6b199b][game]: pickup player='1:JoJoS' item=1/0
+[4f6b199c][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b199c][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b199d][game]: pickup player='4:pico' item=0/0
+[4f6b199d][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b199e][game]: pickup player='2:jb44444' item=0/0
+[4f6b199e][game]: kill killer='2:jb44444' victim='4:pico' weapon=0 special=0
+[4f6b199f][game]: pickup player='0:Philippe' item=0/0
+[4f6b199f][game]: pickup player='2:jb44444' item=0/0
+[4f6b199f][game]: pickup player='0:Philippe' item=0/0
+[4f6b19a0][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b19a1][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b19a1][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b19a2][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19a3][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19a5][game]: pickup player='3:Njut' item=0/0
+[4f6b19a6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19a6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19a6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19a6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19a6][game]: pickup player='1:JoJoS' item=2/3
+[4f6b19a6][game]: pickup player='3:Njut' item=1/0
+[4f6b19a7][game]: pickup player='3:Njut' item=1/0
+[4f6b19a8][game]: pickup player='3:Njut' item=2/2
+[4f6b19aa][game]: pickup player='4:pico' item=2/2
+[4f6b19aa][game]: pickup player='0:Philippe' item=2/4
+[4f6b19ab][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b19ab][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b19ab][game]: pickup player='2:jb44444' item=2/3
+[4f6b19ac][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b19ae][game]: pickup player='4:pico' item=0/0
+[4f6b19ae][game]: pickup player='3:Njut' item=0/0
+[4f6b19ae][game]: kill killer='4:pico' victim='0:Philippe' weapon=2 special=0
+[4f6b19b0][game]: pickup player='3:Njut' item=0/0
+[4f6b19b0][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b19b0][game]: pickup player='2:jb44444' item=0/0
+[4f6b19b0][game]: kill killer='3:Njut' victim='4:pico' weapon=2 special=0
+[4f6b19b0][game]: pickup player='3:Njut' item=0/0
+[4f6b19b1][game]: kill killer='2:jb44444' victim='3:Njut' weapon=3 special=0
+[4f6b19b2][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19b2][game]: pickup player='4:pico' item=1/0
+[4f6b19b2][game]: pickup player='4:pico' item=1/0
+[4f6b19b2][game]: pickup player='4:pico' item=1/0
+[4f6b19b4][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b19b4][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b19b4][game]: pickup player='3:Njut' item=2/2
+[4f6b19b5][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=0 special=0
+[4f6b19b5][game]: pickup player='0:Philippe' item=1/0
+[4f6b19b5][game]: pickup player='3:Njut' item=1/0
+[4f6b19b6][game]: pickup player='0:Philippe' item=1/0
+[4f6b19b6][game]: pickup player='0:Philippe' item=1/0
+[4f6b19b6][game]: pickup player='0:Philippe' item=1/0
+[4f6b19b6][game]: pickup player='0:Philippe' item=2/3
+[4f6b19b6][game]: pickup player='3:Njut' item=1/0
+[4f6b19b6][game]: pickup player='3:Njut' item=1/0
+[4f6b19b9][game]: pickup player='2:jb44444' item=2/4
+[4f6b19ba][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b19ba][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b19ba][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b19bc][game]: pickup player='1:JoJoS' item=2/2
+[4f6b19bd][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b19bd][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=2 special=0
+[4f6b19bd][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=2 special=0
+[4f6b19be][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19be][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19be][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=3 special=0
+[4f6b19bf][game]: pickup player='1:JoJoS' item=2/2
+[4f6b19c0][game]: pickup player='4:pico' item=0/0
+[4f6b19c1][game]: kill killer='0:Philippe' victim='4:pico' weapon=3 special=0
+[4f6b19c2][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19c4][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b19c4][game]: pickup player='2:jb44444' item=0/0
+[4f6b19c4][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=0 special=0
+[4f6b19c5][game]: pickup player='4:pico' item=1/0
+[4f6b19c5][game]: pickup player='4:pico' item=1/0
+[4f6b19c5][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19c5][game]: pickup player='4:pico' item=2/3
+[4f6b19c6][game]: pickup player='4:pico' item=1/0
+[4f6b19c6][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=2 special=0
+[4f6b19c6][game]: pickup player='4:pico' item=1/0
+[4f6b19c7][game]: pickup player='3:Njut' item=1/0
+[4f6b19c9][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b19c9][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b19ca][game]: pickup player='0:Philippe' item=0/0
+[4f6b19ca][game]: pickup player='0:Philippe' item=0/0
+[4f6b19ca][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19ca][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19ca][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19cb][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=3 special=0
+[4f6b19cc][game]: pickup player='2:jb44444' item=2/2
+[4f6b19cc][game]: pickup player='1:JoJoS' item=2/2
+[4f6b19cd][game]: pickup player='2:jb44444' item=1/0
+[4f6b19cd][game]: pickup player='5:Tee Manu' item=2/4
+[4f6b19cd][game]: pickup player='2:jb44444' item=1/0
+[4f6b19cd][game]: pickup player='4:pico' item=2/3
+[4f6b19ce][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b19ce][game]: pickup player='3:Njut' item=1/0
+[4f6b19ce][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19cf][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b19d0][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=2 special=0
+[4f6b19d1][game]: pickup player='2:jb44444' item=0/0
+[4f6b19d2][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=2 special=0
+[4f6b19d3][game]: pickup player='4:pico' item=0/0
+[4f6b19d3][game]: pickup player='0:Philippe' item=2/3
+[4f6b19d4][game]: pickup player='1:JoJoS' item=2/2
+[4f6b19d6][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b19d6][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b19d7][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b19d7][game]: kill killer='0:Philippe' victim='4:pico' weapon=3 special=0
+[4f6b19d9][game]: pickup player='0:Philippe' item=0/0
+[4f6b19da][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19da][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19da][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19dc][game]: pickup player='2:jb44444' item=2/3
+[4f6b19dc][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19dc][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19dd][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19dd][game]: pickup player='3:Njut' item=1/0
+[4f6b19dd][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=3 special=0
+[4f6b19de][game]: kill killer='2:jb44444' victim='4:pico' weapon=3 special=0
+[4f6b19df][game]: pickup player='5:Tee Manu' item=2/4
+[4f6b19df][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19df][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19df][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19df][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19df][game]: pickup player='1:JoJoS' item=2/3
+[4f6b19e0][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=3 special=0
+[4f6b19e0][game]: pickup player='4:pico' item=1/0
+[4f6b19e0][game]: pickup player='4:pico' item=1/0
+[4f6b19e0][game]: pickup player='2:jb44444' item=0/0
+[4f6b19e0][game]: pickup player='4:pico' item=1/0
+[4f6b19e0][game]: pickup player='2:jb44444' item=0/0
+[4f6b19e0][game]: pickup player='2:jb44444' item=0/0
+[4f6b19e1][game]: pickup player='2:jb44444' item=0/0
+[4f6b19e1][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b19e2][game]: pickup player='4:pico' item=2/2
+[4f6b19e3][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b19e3][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b19e5][game]: pickup player='2:jb44444' item=1/0
+[4f6b19e6][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19e7][game]: pickup player='2:jb44444' item=2/2
+[4f6b19e8][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=2 special=0
+[4f6b19ea][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b19ec][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b19ed][game]: pickup player='1:JoJoS' item=0/0
+[4f6b19ee][game]: pickup player='4:pico' item=2/3
+[4f6b19ef][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b19f0][game]: pickup player='2:jb44444' item=2/4
+[4f6b19f1][game]: kill killer='1:JoJoS' victim='1:JoJoS' weapon=3 special=0
+[4f6b19f1][game]: pickup player='2:jb44444' item=0/0
+[4f6b19f1][game]: pickup player='0:Philippe' item=1/0
+[4f6b19f1][game]: pickup player='2:jb44444' item=0/0
+[4f6b19f1][game]: pickup player='0:Philippe' item=1/0
+[4f6b19f1][game]: pickup player='0:Philippe' item=1/0
+[4f6b19f1][game]: pickup player='2:jb44444' item=0/0
+[4f6b19f2][game]: pickup player='0:Philippe' item=1/0
+[4f6b19f2][game]: pickup player='2:jb44444' item=0/0
+[4f6b19f2][game]: pickup player='0:Philippe' item=2/3
+[4f6b19f3][game]: pickup player='4:pico' item=3/5
+[4f6b19f4][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=4 special=0
+[4f6b19f4][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=3 special=0
+[4f6b19f5][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b19f6][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b19f7][game]: pickup player='2:jb44444' item=1/0
+[4f6b19f7][game]: pickup player='1:JoJoS' item=2/2
+[4f6b19f7][game]: kill killer='0:Philippe' victim='4:pico' weapon=3 special=0
+[4f6b19f8][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19f8][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19f9][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19fa][game]: pickup player='1:JoJoS' item=1/0
+[4f6b19fc][game]: pickup player='2:jb44444' item=0/0
+[4f6b19fc][game]: pickup player='2:jb44444' item=0/0
+[4f6b19fd][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=3 special=0
+[4f6b19fd][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1a00][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=2 special=0
+[4f6b1a00][game]: pickup player='4:pico' item=2/3
+[4f6b1a00][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1a02][game]: pickup player='1:JoJoS' item=2/4
+[4f6b1a02][game]: kill killer='4:pico' victim='4:pico' weapon=3 special=0
+[4f6b1a03][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a03][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a03][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a03][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a03][game]: pickup player='2:jb44444' item=2/3
+[4f6b1a03][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=-1 special=0
+[4f6b1a05][register]: refreshing ip addresses
+[4f6b1a05][register]: fetching server counts
+[4f6b1a05][register]: chose 'master3.teeworlds.com' as master, sending heartbeats
+[4f6b1a06][game]: pickup player='4:pico' item=2/2
+[4f6b1a07][game]: kill killer='4:pico' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1a08][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a08][server]: client dropped. cid=3 addr=192.168.1.12:64005 reason=''
+[4f6b1a08][game]: kill killer='3:Njut' victim='3:Njut' weapon=-3 special=0
+[4f6b1a08][chat]: *** 'Njut' has left the game
+[4f6b1a08][game]: leave player='3:Njut'
+[4f6b1a08][game]: pickup player='4:pico' item=0/0
+[4f6b1a0a][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a0a][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a0a][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a0b][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=3 special=0
+[4f6b1a0c][game]: pickup player='4:pico' item=0/0
+[4f6b1a0c][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a0c][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a0d][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a0d][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a0e][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=-1 special=0
+[4f6b1a0e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a0e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a0f][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a0f][game]: kill killer='2:jb44444' victim='4:pico' weapon=0 special=0
+[4f6b1a10][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1a11][game]: pickup player='4:pico' item=2/2
+[4f6b1a11][game]: pickup player='0:Philippe' item=2/3
+[4f6b1a12][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a12][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a12][game]: pickup player='2:jb44444' item=2/3
+[4f6b1a13][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1a13][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a13][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a14][game]: pickup player='4:pico' item=1/0
+[4f6b1a14][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a15][game]: pickup player='0:Philippe' item=2/4
+[4f6b1a16][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b1a18][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a18][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a18][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a18][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a19][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a1a][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a1a][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1a1c][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a1c][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a1c][game]: kill killer='2:jb44444' victim='4:pico' weapon=3 special=0
+[4f6b1a1c][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b1a1d][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1a1e][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=3 special=0
+[4f6b1a1e][server]: player is ready. ClientID=3 addr=192.168.1.12:59815
+[4f6b1a1f][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1a1f][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1a20][game]: kill killer='5:Tee Manu' victim='0:Philippe' weapon=2 special=0
+[4f6b1a20][server]: 'Njut ' -> 'Njut'
+[4f6b1a20][server]: player has entered the game. ClientID=3 addr=192.168.1.12:59815
+[4f6b1a20][chat]: *** 'Njut' entered and joined the game
+[4f6b1a20][game]: team_join player='3:Njut' team=0
+[4f6b1a21][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a21][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=1 special=0
+[4f6b1a21][game]: pickup player='4:pico' item=2/2
+[4f6b1a21][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a22][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=-1 special=0
+[4f6b1a23][game]: pickup player='3:Njut' item=2/2
+[4f6b1a24][game]: pickup player='3:Njut' item=1/0
+[4f6b1a24][game]: pickup player='3:Njut' item=1/0
+[4f6b1a24][game]: pickup player='2:jb44444' item=2/3
+[4f6b1a24][game]: pickup player='3:Njut' item=1/0
+[4f6b1a24][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1a25][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a25][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a25][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a25][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a25][game]: pickup player='0:Philippe' item=2/3
+[4f6b1a26][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a27][game]: kill killer='4:pico' victim='2:jb44444' weapon=2 special=0
+[4f6b1a28][game]: pickup player='0:Philippe' item=0/0
+[4f6b1a29][game]: pickup player='4:pico' item=2/4
+[4f6b1a29][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1a2b][game]: kill killer='0:Philippe' victim='4:pico' weapon=3 special=0
+[4f6b1a2b][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a2b][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a2b][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a2b][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a2b][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a2e][game]: pickup player='3:Njut' item=1/0
+[4f6b1a2e][game]: pickup player='3:Njut' item=1/0
+[4f6b1a2f][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=3 special=0
+[4f6b1a2f][game]: pickup player='3:Njut' item=2/2
+[4f6b1a31][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a32][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a32][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a32][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a32][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1a34][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1a35][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a35][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a35][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a35][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a35][game]: pickup player='0:Philippe' item=2/3
+[4f6b1a35][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a36][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a36][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a37][game]: pickup player='2:jb44444' item=2/3
+[4f6b1a37][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=3 special=0
+[4f6b1a37][game]: kill killer='3:Njut' victim='4:pico' weapon=2 special=0
+[4f6b1a38][game]: pickup player='3:Njut' item=0/0
+[4f6b1a39][game]: pickup player='3:Njut' item=0/0
+[4f6b1a39][game]: pickup player='4:pico' item=2/2
+[4f6b1a39][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1a39][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1a3a][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b1a3c][game]: pickup player='2:jb44444' item=2/4
+[4f6b1a3c][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=3 special=0
+[4f6b1a3c][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b1a3d][game]: kill killer='5:Tee Manu' victim='1:JoJoS' weapon=2 special=0
+[4f6b1a3e][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1a3f][game]: kill killer='4:pico' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1a41][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a41][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a41][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a41][game]: kill killer='3:Njut' victim='3:Njut' weapon=-1 special=0
+[4f6b1a41][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a41][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1a43][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1a43][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a44][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=2 special=0
+[4f6b1a45][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a45][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a45][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a45][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a45][game]: pickup player='0:Philippe' item=2/3
+[4f6b1a46][game]: kill killer='1:JoJoS' victim='4:pico' weapon=0 special=0
+[4f6b1a46][game]: pickup player='3:Njut' item=2/2
+[4f6b1a46][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1a48][game]: pickup player='3:Njut' item=1/0
+[4f6b1a48][game]: pickup player='3:Njut' item=1/0
+[4f6b1a48][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1a48][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1a49][game]: pickup player='3:Njut' item=1/0
+[4f6b1a49][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=3 special=0
+[4f6b1a4b][game]: pickup player='2:jb44444' item=2/2
+[4f6b1a4b][game]: pickup player='4:pico' item=2/3
+[4f6b1a4c][game]: kill killer='4:pico' victim='1:JoJoS' weapon=3 special=0
+[4f6b1a4c][game]: pickup player='5:Tee Manu' item=2/4
+[4f6b1a4c][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a4e][game]: kill killer='2:jb44444' victim='3:Njut' weapon=2 special=0
+[4f6b1a4e][game]: pickup player='0:Philippe' item=0/0
+[4f6b1a4e][game]: pickup player='4:pico' item=2/2
+[4f6b1a4f][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1a50][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1a57][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1a57][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1a5a][game]: dm7
+[4f6b1a5a][game]: start round type='DM' teamplay='0'
+[4f6b1a5a][datafile]: loading. filename='maps/dm7.map'
+[4f6b1a5a][datafile]: allocsize=1632
+[4f6b1a5a][datafile]: readsize=1496
+[4f6b1a5a][datafile]: swaplen=1460
+[4f6b1a5a][datafile]: item_size=1216
+[4f6b1a5a][datafile]: loading done. datafile='maps/dm7.map'
+[4f6b1a5a][server]: maps/dm7.map crc is 426da167
+[4f6b1a5a][datafile]: loading data index=10 size=951 uncompressed=70080
+[4f6b1a5a][server]: player is ready. ClientID=1 addr=192.168.1.186:49604
+[4f6b1a5a][server]: player is ready. ClientID=5 addr=192.168.1.123:56437
+[4f6b1a5a][server]: player is ready. ClientID=4 addr=192.168.1.63:55255
+[4f6b1a5a][server]: player is ready. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1a5a][server]: player is ready. ClientID=2 addr=192.168.1.10:45391
+[4f6b1a5a][server]: player is ready. ClientID=3 addr=192.168.1.12:59815
+[4f6b1a5b][server]: player has entered the game. ClientID=5 addr=192.168.1.123:56437
+[4f6b1a5b][chat]: *** 'Tee Manu' entered and joined the game
+[4f6b1a5b][game]: team_join player='5:Tee Manu' team=0
+[4f6b1a5b][server]: player has entered the game. ClientID=1 addr=192.168.1.186:49604
+[4f6b1a5b][chat]: *** 'JoJoS' entered and joined the game
+[4f6b1a5b][game]: team_join player='1:JoJoS' team=0
+[4f6b1a5b][server]: player has entered the game. ClientID=4 addr=192.168.1.63:55255
+[4f6b1a5b][chat]: *** 'pico' entered and joined the game
+[4f6b1a5b][game]: team_join player='4:pico' team=0
+[4f6b1a5b][server]: player has entered the game. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1a5b][chat]: *** 'Philippe' entered and joined the game
+[4f6b1a5b][game]: team_join player='0:Philippe' team=0
+[4f6b1a5b][server]: player has entered the game. ClientID=2 addr=192.168.1.10:45391
+[4f6b1a5b][chat]: *** 'jb44444' entered and joined the game
+[4f6b1a5b][game]: team_join player='2:jb44444' team=0
+[4f6b1a5b][server]: player has entered the game. ClientID=3 addr=192.168.1.12:59815
+[4f6b1a5b][chat]: *** 'Njut' entered and joined the game
+[4f6b1a5b][game]: team_join player='3:Njut' team=0
+[4f6b1a5d][game]: pickup player='0:Philippe' item=2/3
+[4f6b1a5d][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1a5e][game]: pickup player='3:Njut' item=1/0
+[4f6b1a5e][game]: pickup player='4:pico' item=2/3
+[4f6b1a5e][game]: pickup player='3:Njut' item=1/0
+[4f6b1a5e][game]: pickup player='3:Njut' item=1/0
+[4f6b1a5e][game]: pickup player='5:Tee Manu' item=2/4
+[4f6b1a5f][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1a5f][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a5f][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a5f][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a60][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a60][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a60][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a60][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a60][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a60][game]: pickup player='0:Philippe' item=1/0
+[4f6b1a63][game]: pickup player='1:JoJoS' item=2/4
+[4f6b1a63][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a63][game]: pickup player='4:pico' item=0/0
+[4f6b1a63][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1a64][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a64][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=4 special=0
+[4f6b1a64][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a65][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1a66][game]: pickup player='4:pico' item=0/0
+[4f6b1a66][game]: pickup player='4:pico' item=0/0
+[4f6b1a66][game]: pickup player='4:pico' item=0/0
+[4f6b1a66][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1a66][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1a67][game]: kill killer='0:Philippe' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1a69][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1a6a][game]: pickup player='2:jb44444' item=2/2
+[4f6b1a6a][game]: kill killer='1:JoJoS' victim='4:pico' weapon=4 special=0
+[4f6b1a6b][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=2 special=0
+[4f6b1a6d][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=4 special=0
+[4f6b1a6e][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=2 special=0
+[4f6b1a6e][game]: pickup player='0:Philippe' item=2/4
+[4f6b1a6f][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=4 special=0
+[4f6b1a6f][game]: pickup player='0:Philippe' item=2/3
+[4f6b1a70][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a70][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a70][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a72][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a72][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a72][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a74][game]: pickup player='3:Njut' item=2/4
+[4f6b1a75][game]: pickup player='2:jb44444' item=2/3
+[4f6b1a76][game]: pickup player='4:pico' item=2/3
+[4f6b1a79][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=4 special=0
+[4f6b1a79][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=3 special=0
+[4f6b1a7a][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a7a][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a7a][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a7c][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=3 special=0
+[4f6b1a7c][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1a7d][game]: pickup player='4:pico' item=2/2
+[4f6b1a7e][game]: pickup player='2:jb44444' item=2/2
+[4f6b1a7e][game]: pickup player='0:Philippe' item=2/4
+[4f6b1a80][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1a80][game]: pickup player='0:Philippe' item=2/3
+[4f6b1a82][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a82][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a82][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a84][game]: pickup player='3:Njut' item=0/0
+[4f6b1a84][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b1a85][game]: pickup player='2:jb44444' item=2/3
+[4f6b1a86][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=3 special=0
+[4f6b1a86][game]: kill killer='4:pico' victim='4:pico' weapon=3 special=0
+[4f6b1a87][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1a88][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=3 special=0
+[4f6b1a89][game]: pickup player='3:Njut' item=1/0
+[4f6b1a89][game]: pickup player='3:Njut' item=1/0
+[4f6b1a89][game]: pickup player='3:Njut' item=1/0
+[4f6b1a8a][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a8a][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a8a][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1a8b][game]: pickup player='4:pico' item=2/4
+[4f6b1a8c][game]: pickup player='2:jb44444' item=0/0
+[4f6b1a8c][game]: pickup player='4:pico' item=1/0
+[4f6b1a8c][game]: pickup player='3:Njut' item=0/0
+[4f6b1a8c][game]: pickup player='4:pico' item=1/0
+[4f6b1a8c][game]: pickup player='4:pico' item=1/0
+[4f6b1a8c][game]: kill killer='2:jb44444' victim='3:Njut' weapon=1 special=0
+[4f6b1a8d][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=1 special=0
+[4f6b1a8e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a8e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a8e][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1a90][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1a90][game]: pickup player='0:Philippe' item=2/3
+[4f6b1a92][game]: pickup player='4:pico' item=2/2
+[4f6b1a92][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1a93][game]: kill killer='5:Tee Manu' victim='1:JoJoS' weapon=3 special=0
+[4f6b1a93][game]: pickup player='2:jb44444' item=2/2
+[4f6b1a94][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1a97][game]: pickup player='4:pico' item=0/0
+[4f6b1a97][game]: pickup player='4:pico' item=0/0
+[4f6b1a98][game]: pickup player='0:Philippe' item=2/3
+[4f6b1a9a][game]: kill killer='5:Tee Manu' victim='4:pico' weapon=3 special=0
+[4f6b1a9c][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1a9c][game]: pickup player='4:pico' item=2/2
+[4f6b1a9e][game]: pickup player='5:Tee Manu' item=2/4
+[4f6b1a9e][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a9e][game]: pickup player='4:pico' item=1/0
+[4f6b1a9f][game]: pickup player='4:pico' item=1/0
+[4f6b1a9f][game]: pickup player='4:pico' item=1/0
+[4f6b1a9f][game]: pickup player='2:jb44444' item=1/0
+[4f6b1a9f][game]: pickup player='2:jb44444' item=1/0
+[4f6b1aa0][game]: pickup player='2:jb44444' item=0/0
+[4f6b1aa0][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1aa0][game]: pickup player='2:jb44444' item=0/0
+[4f6b1aa0][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1aa0][game]: pickup player='2:jb44444' item=0/0
+[4f6b1aa0][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1aa1][game]: pickup player='2:jb44444' item=2/4
+[4f6b1aa1][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=3 special=0
+[4f6b1aa2][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1aa2][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=4 special=0
+[4f6b1aa2][register]: refreshing ip addresses
+[4f6b1aa2][register]: fetching server counts
+[4f6b1aa3][register]: chose 'master1.teeworlds.com' as master, sending heartbeats
+[4f6b1aa3][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1aa4][game]: pickup player='3:Njut' item=1/0
+[4f6b1aa4][game]: pickup player='3:Njut' item=1/0
+[4f6b1aa4][game]: pickup player='3:Njut' item=1/0
+[4f6b1aa5][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1aa7][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1aa7][game]: pickup player='0:Philippe' item=2/2
+[4f6b1aaa][game]: kill killer='3:Njut' victim='0:Philippe' weapon=1 special=0
+[4f6b1aae][game]: pickup player='0:Philippe' item=2/3
+[4f6b1aae][game]: pickup player='4:pico' item=2/3
+[4f6b1aaf][game]: pickup player='2:jb44444' item=0/0
+[4f6b1aaf][game]: pickup player='2:jb44444' item=0/0
+[4f6b1aaf][game]: pickup player='2:jb44444' item=0/0
+[4f6b1aaf][game]: pickup player='3:Njut' item=1/0
+[4f6b1aaf][game]: pickup player='3:Njut' item=1/0
+[4f6b1aaf][game]: pickup player='3:Njut' item=1/0
+[4f6b1aaf][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b1ab0][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1ab1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1ab1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1ab2][game]: pickup player='1:JoJoS' item=2/4
+[4f6b1ab2][game]: pickup player='2:jb44444' item=2/2
+[4f6b1ab4][game]: kill killer='4:pico' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1ab5][game]: pickup player='2:jb44444' item=1/0
+[4f6b1ab5][game]: pickup player='2:jb44444' item=1/0
+[4f6b1ab5][game]: pickup player='2:jb44444' item=1/0
+[4f6b1ab5][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b1ab8][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1ab8][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1ab8][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1ab8][game]: pickup player='3:Njut' item=2/4
+[4f6b1aba][game]: pickup player='1:JoJoS' item=3/5
+[4f6b1aba][game]: pickup player='3:Njut' item=2/3
+[4f6b1aba][game]: pickup player='2:jb44444' item=2/2
+[4f6b1abb][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=2 special=0
+[4f6b1abd][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1abd][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1abd][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1abe][game]: pickup player='2:jb44444' item=2/3
+[4f6b1abe][game]: pickup player='4:pico' item=0/0
+[4f6b1abe][game]: pickup player='4:pico' item=0/0
+[4f6b1abe][game]: pickup player='4:pico' item=0/0
+[4f6b1abf][game]: pickup player='0:Philippe' item=2/3
+[4f6b1abf][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=5 special=0
+[4f6b1ac0][game]: pickup player='4:pico' item=1/0
+[4f6b1ac0][game]: pickup player='4:pico' item=1/0
+[4f6b1ac0][game]: pickup player='4:pico' item=1/0
+[4f6b1ac0][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1ac0][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=3 special=0
+[4f6b1ac0][game]: pickup player='3:Njut' item=0/0
+[4f6b1ac2][game]: pickup player='4:pico' item=1/0
+[4f6b1ac2][game]: pickup player='4:pico' item=1/0
+[4f6b1ac2][game]: pickup player='4:pico' item=1/0
+[4f6b1ac2][game]: pickup player='3:Njut' item=0/0
+[4f6b1ac2][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1ac4][game]: pickup player='4:pico' item=2/4
+[4f6b1ac4][game]: pickup player='4:pico' item=0/0
+[4f6b1ac5][game]: pickup player='4:pico' item=0/0
+[4f6b1ac5][game]: pickup player='4:pico' item=0/0
+[4f6b1ac5][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1ac5][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1ac5][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1ac9][game]: kill killer='0:Philippe' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1aca][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1aca][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1aca][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1aca][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1acc][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b1acc][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1acc][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1acc][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1acd][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1ace][game]: pickup player='0:Philippe' item=2/3
+[4f6b1acf][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1acf][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1acf][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1acf][game]: pickup player='3:Njut' item=2/3
+[4f6b1ad0][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1ad0][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1ad0][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1ad1][game]: pickup player='3:Njut' item=0/0
+[4f6b1ad1][game]: pickup player='3:Njut' item=0/0
+[4f6b1ad1][game]: pickup player='3:Njut' item=0/0
+[4f6b1ad3][game]: pickup player='1:JoJoS' item=2/4
+[4f6b1ad3][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=1 special=0
+[4f6b1ad4][game]: kill killer='0:Philippe' victim='4:pico' weapon=3 special=0
+[4f6b1ad4][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=1 special=0
+[4f6b1ad5][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1ad5][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1ad6][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1ad6][game]: pickup player='4:pico' item=2/2
+[4f6b1ad7][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1ad7][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1ad7][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1ad7][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1ad8][game]: pickup player='2:jb44444' item=2/2
+[4f6b1ad8][game]: pickup player='0:Philippe' item=2/3
+[4f6b1ad8][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1ad8][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1ad9][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1ad9][game]: pickup player='2:jb44444' item=1/0
+[4f6b1ad9][game]: pickup player='2:jb44444' item=1/0
+[4f6b1ad9][game]: pickup player='2:jb44444' item=1/0
+[4f6b1adb][game]: pickup player='5:Tee Manu' item=2/4
+[4f6b1adc][game]: kill killer='1:JoJoS' victim='4:pico' weapon=4 special=0
+[4f6b1ade][game]: pickup player='2:jb44444' item=0/0
+[4f6b1ade][game]: pickup player='2:jb44444' item=0/0
+[4f6b1ade][game]: pickup player='2:jb44444' item=0/0
+[4f6b1ae0][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=4 special=0
+[4f6b1ae0][game]: pickup player='4:pico' item=1/0
+[4f6b1ae0][game]: pickup player='4:pico' item=1/0
+[4f6b1ae0][game]: pickup player='4:pico' item=1/0
+[4f6b1ae1][game]: pickup player='0:Philippe' item=0/0
+[4f6b1ae2][game]: pickup player='0:Philippe' item=0/0
+[4f6b1ae2][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b1ae4][game]: pickup player='4:pico' item=1/0
+[4f6b1ae4][game]: pickup player='4:pico' item=1/0
+[4f6b1ae4][game]: pickup player='4:pico' item=1/0
+[4f6b1ae5][game]: pickup player='3:Njut' item=2/3
+[4f6b1ae6][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=4 special=0
+[4f6b1ae6][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1ae6][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1ae6][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=1 special=0
+[4f6b1ae7][game]: pickup player='3:Njut' item=1/0
+[4f6b1ae7][game]: pickup player='3:Njut' item=1/0
+[4f6b1ae7][game]: pickup player='3:Njut' item=1/0
+[4f6b1ae8][game]: pickup player='4:pico' item=2/3
+[4f6b1ae9][game]: pickup player='2:jb44444' item=2/3
+[4f6b1ae9][game]: pickup player='0:Philippe' item=2/3
+[4f6b1aea][game]: pickup player='4:pico' item=2/2
+[4f6b1aea][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1aea][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1aea][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1aea][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1aed][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1aed][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1aed][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1aee][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1aee][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1aee][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1aef][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1aef][game]: pickup player='3:Njut' item=2/2
+[4f6b1af1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1af1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1af1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1af2][game]: pickup player='4:pico' item=1/0
+[4f6b1af2][game]: pickup player='4:pico' item=1/0
+[4f6b1af2][game]: pickup player='4:pico' item=1/0
+[4f6b1af3][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1af3][game]: kill killer='2:jb44444' victim='3:Njut' weapon=3 special=0
+[4f6b1af3][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1af3][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1af3][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1af4][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b1af5][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1af5][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1af6][game]: kill killer='0:Philippe' victim='4:pico' weapon=3 special=0
+[4f6b1af9][game]: pickup player='2:jb44444' item=2/4
+[4f6b1afa][game]: pickup player='1:JoJoS' item=2/4
+[4f6b1afb][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1afb][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1afb][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1afb][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1afc][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=1 special=0
+[4f6b1afc][game]: kill killer='4:pico' victim='5:Tee Manu' weapon=1 special=0
+[4f6b1afe][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1afe][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b1afe][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1afe][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b00][game]: pickup player='0:Philippe' item=1/0
+[4f6b1b00][game]: pickup player='0:Philippe' item=1/0
+[4f6b1b00][game]: pickup player='0:Philippe' item=1/0
+[4f6b1b01][chat]: 4:-2:pico: awouah
+[4f6b1b01][game]: pickup player='2:jb44444' item=2/3
+[4f6b1b02][game]: pickup player='3:Njut' item=1/0
+[4f6b1b02][game]: pickup player='3:Njut' item=1/0
+[4f6b1b02][game]: pickup player='3:Njut' item=1/0
+[4f6b1b04][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1b04][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1b04][game]: pickup player='0:Philippe' item=2/3
+[4f6b1b05][game]: pickup player='4:pico' item=1/0
+[4f6b1b05][game]: pickup player='4:pico' item=1/0
+[4f6b1b05][game]: pickup player='4:pico' item=1/0
+[4f6b1b08][game]: pickup player='4:pico' item=2/3
+[4f6b1b08][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1b09][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1b09][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1b0a][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1b0a][game]: pickup player='4:pico' item=2/2
+[4f6b1b0a][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1b0b][game]: pickup player='0:Philippe' item=2/2
+[4f6b1b0d][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b1b0d][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1b0f][game]: pickup player='4:pico' item=0/0
+[4f6b1b0f][game]: pickup player='4:pico' item=0/0
+[4f6b1b0f][game]: pickup player='4:pico' item=0/0
+[4f6b1b10][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b1b12][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b12][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b12][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b14][game]: pickup player='5:Tee Manu' item=2/4
+[4f6b1b15][game]: pickup player='4:pico' item=2/3
+[4f6b1b15][game]: pickup player='3:Njut' item=1/0
+[4f6b1b15][game]: pickup player='3:Njut' item=1/0
+[4f6b1b15][game]: pickup player='3:Njut' item=1/0
+[4f6b1b15][game]: pickup player='2:jb44444' item=3/5
+[4f6b1b16][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1b17][game]: pickup player='2:jb44444' item=1/0
+[4f6b1b17][game]: pickup player='2:jb44444' item=1/0
+[4f6b1b17][game]: pickup player='2:jb44444' item=1/0
+[4f6b1b19][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b19][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b19][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b1b][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=3 special=0
+[4f6b1b1f][game]: pickup player='4:pico' item=0/0
+[4f6b1b20][game]: pickup player='0:Philippe' item=2/3
+[4f6b1b20][game]: pickup player='4:pico' item=0/0
+[4f6b1b20][game]: pickup player='4:pico' item=0/0
+[4f6b1b21][game]: pickup player='4:pico' item=0/0
+[4f6b1b23][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1b24][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b1b27][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b27][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b27][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b27][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1b27][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=2 special=0
+[4f6b1b28][game]: pickup player='4:pico' item=1/0
+[4f6b1b28][game]: pickup player='4:pico' item=1/0
+[4f6b1b28][game]: pickup player='4:pico' item=1/0
+[4f6b1b28][game]: pickup player='0:Philippe' item=2/3
+[4f6b1b2a][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b1b2b][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=2 special=0
+[4f6b1b2c][game]: pickup player='2:jb44444' item=2/2
+[4f6b1b2e][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1b2e][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1b2e][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1b2f][game]: pickup player='2:jb44444' item=1/0
+[4f6b1b2f][game]: pickup player='2:jb44444' item=1/0
+[4f6b1b2f][game]: pickup player='2:jb44444' item=1/0
+[4f6b1b2f][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b2f][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b2f][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b31][game]: pickup player='0:Philippe' item=2/3
+[4f6b1b32][game]: pickup player='1:JoJoS' item=2/4
+[4f6b1b32][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b33][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=4 special=0
+[4f6b1b3d][game]: dm_jocube
+[4f6b1b3d][game]: start round type='DM' teamplay='0'
+[4f6b1b3d][datafile]: loading. filename='maps/dm_jocube.map'
+[4f6b1b3d][datafile]: allocsize=784
+[4f6b1b3d][datafile]: readsize=672
+[4f6b1b3d][datafile]: swaplen=692
+[4f6b1b3d][datafile]: item_size=508
+[4f6b1b3d][datafile]: loading done. datafile='maps/dm_jocube.map'
+[4f6b1b3d][server]: maps/dm_jocube.map crc is 2d6db32b
+[4f6b1b3d][datafile]: loading data index=5 size=291 uncompressed=10000
+[4f6b1b3d][server]: player is ready. ClientID=1 addr=192.168.1.186:49604
+[4f6b1b3d][server]: player is ready. ClientID=5 addr=192.168.1.123:56437
+[4f6b1b3d][server]: player is ready. ClientID=4 addr=192.168.1.63:55255
+[4f6b1b3d][server]: player is ready. ClientID=2 addr=192.168.1.10:45391
+[4f6b1b3d][server]: player is ready. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1b3d][server]: player is ready. ClientID=3 addr=192.168.1.12:59815
+[4f6b1b3e][server]: player has entered the game. ClientID=1 addr=192.168.1.186:49604
+[4f6b1b3e][chat]: *** 'JoJoS' entered and joined the game
+[4f6b1b3e][game]: team_join player='1:JoJoS' team=0
+[4f6b1b3e][server]: player has entered the game. ClientID=5 addr=192.168.1.123:56437
+[4f6b1b3e][chat]: *** 'Tee Manu' entered and joined the game
+[4f6b1b3e][game]: team_join player='5:Tee Manu' team=0
+[4f6b1b3e][server]: player has entered the game. ClientID=4 addr=192.168.1.63:55255
+[4f6b1b3e][chat]: *** 'pico' entered and joined the game
+[4f6b1b3e][game]: team_join player='4:pico' team=0
+[4f6b1b3e][server]: player has entered the game. ClientID=2 addr=192.168.1.10:45391
+[4f6b1b3e][chat]: *** 'jb44444' entered and joined the game
+[4f6b1b3e][game]: team_join player='2:jb44444' team=0
+[4f6b1b3e][server]: player has entered the game. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1b3e][chat]: *** 'Philippe' entered and joined the game
+[4f6b1b3e][game]: team_join player='0:Philippe' team=0
+[4f6b1b3e][server]: player has entered the game. ClientID=3 addr=192.168.1.12:59815
+[4f6b1b3e][chat]: *** 'Njut' entered and joined the game
+[4f6b1b3e][game]: team_join player='3:Njut' team=0
+[4f6b1b3f][game]: kill killer='5:Tee Manu' victim='5:Tee Manu' weapon=-1 special=0
+[4f6b1b40][game]: pickup player='0:Philippe' item=2/3
+[4f6b1b40][game]: pickup player='4:pico' item=2/2
+[4f6b1b40][register]: refreshing ip addresses
+[4f6b1b40][register]: fetching server counts
+[4f6b1b40][register]: chose 'master3.teeworlds.com' as master, sending heartbeats
+[4f6b1b40][game]: pickup player='1:JoJoS' item=2/4
+[4f6b1b40][game]: pickup player='0:Philippe' item=1/0
+[4f6b1b41][game]: pickup player='3:Njut' item=2/3
+[4f6b1b41][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b41][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b41][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b42][game]: pickup player='0:Philippe' item=2/2
+[4f6b1b42][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1b42][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1b43][game]: pickup player='4:pico' item=1/0
+[4f6b1b43][game]: pickup player='4:pico' item=1/0
+[4f6b1b44][game]: pickup player='0:Philippe' item=0/0
+[4f6b1b45][game]: pickup player='2:jb44444' item=1/0
+[4f6b1b45][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=4 special=0
+[4f6b1b46][game]: pickup player='2:jb44444' item=2/2
+[4f6b1b47][game]: kill killer='4:pico' victim='3:Njut' weapon=2 special=0
+[4f6b1b47][game]: kill killer='3:Njut' victim='4:pico' weapon=3 special=0
+[4f6b1b48][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=-1 special=0
+[4f6b1b48][game]: kill killer='3:Njut' victim='3:Njut' weapon=-1 special=0
+[4f6b1b49][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1b49][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=-1 special=0
+[4f6b1b4a][game]: kill killer='3:Njut' victim='3:Njut' weapon=-1 special=0
+[4f6b1b4b][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=-1 special=0
+[4f6b1b4d][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=4 special=0
+[4f6b1b4e][game]: kill killer='3:Njut' victim='3:Njut' weapon=-1 special=0
+[4f6b1b4f][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1b4f][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1b4f][game]: pickup player='0:Philippe' item=1/0
+[4f6b1b50][game]: pickup player='3:Njut' item=2/4
+[4f6b1b51][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1b51][game]: pickup player='2:jb44444' item=1/0
+[4f6b1b51][game]: pickup player='2:jb44444' item=1/0
+[4f6b1b53][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1b53][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=0 special=0
+[4f6b1b54][game]: pickup player='4:pico' item=1/0
+[4f6b1b54][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=4 special=0
+[4f6b1b54][game]: pickup player='2:jb44444' item=0/0
+[4f6b1b54][game]: pickup player='2:jb44444' item=0/0
+[4f6b1b55][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1b56][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1b57][game]: pickup player='3:Njut' item=2/2
+[4f6b1b57][game]: pickup player='3:Njut' item=1/0
+[4f6b1b57][game]: pickup player='3:Njut' item=1/0
+[4f6b1b57][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b5a][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=-1 special=0
+[4f6b1b5b][game]: kill killer='4:pico' victim='5:Tee Manu' weapon=0 special=0
+[4f6b1b5e][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=1 special=0
+[4f6b1b60][game]: kill killer='1:JoJoS' victim='4:pico' weapon=0 special=0
+[4f6b1b60][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=0 special=0
+[4f6b1b61][game]: pickup player='5:Tee Manu' item=2/4
+[4f6b1b61][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=0 special=0
+[4f6b1b62][game]: pickup player='3:Njut' item=2/3
+[4f6b1b62][game]: kill killer='1:JoJoS' victim='1:JoJoS' weapon=-1 special=0
+[4f6b1b62][game]: pickup player='3:Njut' item=1/0
+[4f6b1b63][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1b63][game]: pickup player='2:jb44444' item=0/0
+[4f6b1b63][game]: pickup player='2:jb44444' item=0/0
+[4f6b1b65][game]: pickup player='3:Njut' item=1/0
+[4f6b1b66][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b66][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b66][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b66][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b67][game]: kill killer='3:Njut' victim='0:Philippe' weapon=3 special=0
+[4f6b1b67][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1b67][game]: kill killer='2:jb44444' victim='3:Njut' weapon=0 special=0
+[4f6b1b68][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1b68][game]: pickup player='2:jb44444' item=2/2
+[4f6b1b68][game]: kill killer='3:Njut' victim='3:Njut' weapon=-1 special=0
+[4f6b1b69][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1b69][game]: pickup player='4:pico' item=2/2
+[4f6b1b6a][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b1b6b][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b6c][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1b6f][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b1b6f][game]: kill killer='2:jb44444' victim='4:pico' weapon=1 special=0
+[4f6b1b71][game]: kill killer='4:pico' victim='2:jb44444' weapon=1 special=0
+[4f6b1b73][game]: pickup player='0:Philippe' item=2/4
+[4f6b1b73][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1b74][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b74][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1b74][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b74][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1b74][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1b74][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1b75][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=-1 special=0
+[4f6b1b76][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b76][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b77][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1b78][game]: pickup player='3:Njut' item=2/2
+[4f6b1b78][game]: pickup player='3:Njut' item=1/0
+[4f6b1b78][game]: pickup player='3:Njut' item=1/0
+[4f6b1b78][game]: pickup player='3:Njut' item=0/0
+[4f6b1b78][game]: pickup player='3:Njut' item=0/0
+[4f6b1b78][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1b7b][game]: pickup player='2:jb44444' item=0/0
+[4f6b1b7e][game]: pickup player='4:pico' item=2/2
+[4f6b1b7f][game]: kill killer='4:pico' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1b80][game]: pickup player='0:Philippe' item=1/0
+[4f6b1b80][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=2 special=0
+[4f6b1b82][game]: pickup player='0:Philippe' item=2/4
+[4f6b1b82][game]: kill killer='2:jb44444' victim='4:pico' weapon=1 special=0
+[4f6b1b83][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1b83][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1b84][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=-1 special=0
+[4f6b1b85][game]: pickup player='0:Philippe' item=1/0
+[4f6b1b85][game]: pickup player='3:Njut' item=2/3
+[4f6b1b85][game]: kill killer='3:Njut' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1b85][game]: kill killer='3:Njut' victim='3:Njut' weapon=3 special=0
+[4f6b1b86][game]: pickup player='0:Philippe' item=1/0
+[4f6b1b86][game]: kill killer='3:Njut' victim='3:Njut' weapon=-1 special=0
+[4f6b1b86][game]: pickup player='2:jb44444' item=1/0
+[4f6b1b87][game]: pickup player='2:jb44444' item=1/0
+[4f6b1b88][game]: pickup player='2:jb44444' item=2/2
+[4f6b1b88][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1b89][game]: kill killer='3:Njut' victim='3:Njut' weapon=-1 special=0
+[4f6b1b8a][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b8a][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1b8a][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1b8a][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1b8b][game]: kill killer='5:Tee Manu' victim='1:JoJoS' weapon=3 special=0
+[4f6b1b8d][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=2 special=0
+[4f6b1b8f][game]: kill killer='5:Tee Manu' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1b8f][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=3 special=0
+[4f6b1b90][game]: pickup player='3:Njut' item=1/0
+[4f6b1b91][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1b92][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1b92][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1b93][game]: pickup player='2:jb44444' item=2/4
+[4f6b1b93][game]: kill killer='5:Tee Manu' victim='0:Philippe' weapon=2 special=0
+[4f6b1b94][game]: pickup player='4:pico' item=1/0
+[4f6b1b95][game]: pickup player='4:pico' item=2/3
+[4f6b1b96][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1b98][game]: kill killer='2:jb44444' victim='4:pico' weapon=4 special=0
+[4f6b1b98][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1b98][game]: pickup player='2:jb44444' item=1/0
+[4f6b1b99][game]: pickup player='3:Njut' item=0/0
+[4f6b1b99][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1b99][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b99][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1b99][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1b99][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1b9a][game]: pickup player='0:Philippe' item=3/5
+[4f6b1b9a][game]: kill killer='0:Philippe' victim='3:Njut' weapon=5 special=0
+[4f6b1b9b][game]: kill killer='0:Philippe' victim='5:Tee Manu' weapon=5 special=0
+[4f6b1b9b][game]: pickup player='4:pico' item=2/2
+[4f6b1b9c][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=5 special=0
+[4f6b1b9c][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b1b9d][game]: pickup player='3:Njut' item=1/0
+[4f6b1b9d][game]: pickup player='3:Njut' item=1/0
+[4f6b1b9d][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=-1 special=0
+[4f6b1b9e][game]: kill killer='4:pico' victim='4:pico' weapon=-1 special=0
+[4f6b1ba0][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=0 special=0
+[4f6b1ba1][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1ba1][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1ba1][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1ba2][game]: pickup player='0:Philippe' item=1/0
+[4f6b1ba2][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=2 special=0
+[4f6b1ba4][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=-1 special=0
+[4f6b1ba6][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1ba6][game]: pickup player='0:Philippe' item=2/4
+[4f6b1ba7][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1ba8][game]: kill killer='4:pico' victim='2:jb44444' weapon=0 special=0
+[4f6b1ba8][game]: pickup player='3:Njut' item=1/0
+[4f6b1ba8][game]: kill killer='5:Tee Manu' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1ba8][game]: kill killer='5:Tee Manu' victim='4:pico' weapon=3 special=0
+[4f6b1ba9][game]: pickup player='0:Philippe' item=2/3
+[4f6b1ba9][game]: pickup player='0:Philippe' item=1/0
+[4f6b1ba9][game]: pickup player='0:Philippe' item=0/0
+[4f6b1ba9][game]: kill killer='4:pico' victim='4:pico' weapon=-1 special=0
+[4f6b1baa][game]: pickup player='0:Philippe' item=2/2
+[4f6b1bab][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1bab][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1bab][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1bab][game]: pickup player='0:Philippe' item=0/0
+[4f6b1bac][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1bad][game]: kill killer='5:Tee Manu' victim='1:JoJoS' weapon=2 special=0
+[4f6b1bad][game]: pickup player='0:Philippe' item=0/0
+[4f6b1bad][game]: pickup player='0:Philippe' item=1/0
+[4f6b1bb0][game]: kill killer='2:jb44444' victim='3:Njut' weapon=0 special=0
+[4f6b1bb0][game]: pickup player='2:jb44444' item=2/2
+[4f6b1bb1][game]: kill killer='0:Philippe' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1bb3][game]: pickup player='3:Njut' item=1/0
+[4f6b1bb3][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=-1 special=0
+[4f6b1bb3][game]: pickup player='3:Njut' item=1/0
+[4f6b1bb6][game]: pickup player='2:jb44444' item=0/0
+[4f6b1bb6][game]: pickup player='2:jb44444' item=0/0
+[4f6b1bb7][game]: pickup player='4:pico' item=2/3
+[4f6b1bb8][game]: kill killer='4:pico' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1bb8][game]: pickup player='0:Philippe' item=2/4
+[4f6b1bb9][game]: kill killer='4:pico' victim='1:JoJoS' weapon=3 special=0
+[4f6b1bba][game]: kill killer='1:JoJoS' victim='1:JoJoS' weapon=-1 special=0
+[4f6b1bba][game]: pickup player='3:Njut' item=2/3
+[4f6b1bba][game]: pickup player='0:Philippe' item=1/0
+[4f6b1bba][game]: kill killer='0:Philippe' victim='3:Njut' weapon=4 special=0
+[4f6b1bbb][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1bbb][game]: pickup player='2:jb44444' item=1/0
+[4f6b1bbb][game]: pickup player='2:jb44444' item=1/0
+[4f6b1bbb][game]: pickup player='2:jb44444' item=2/2
+[4f6b1bbc][game]: kill killer='4:pico' victim='4:pico' weapon=3 special=0
+[4f6b1bbd][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=1 special=0
+[4f6b1bbd][game]: pickup player='0:Philippe' item=1/0
+[4f6b1bbd][game]: pickup player='0:Philippe' item=0/0
+[4f6b1bbd][game]: pickup player='0:Philippe' item=0/0
+[4f6b1bbd][game]: pickup player='0:Philippe' item=0/0
+[4f6b1bbf][game]: pickup player='2:jb44444' item=1/0
+[4f6b1bbf][game]: pickup player='3:Njut' item=0/0
+[4f6b1bc1][game]: kill killer='0:Philippe' victim='3:Njut' weapon=4 special=0
+[4f6b1bc2][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=0 special=0
+[4f6b1bc4][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1bc4][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1bc4][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1bc6][game]: pickup player='2:jb44444' item=0/0
+[4f6b1bc8][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1bc8][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=2 special=0
+[4f6b1bc9][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1bc9][game]: kill killer='5:Tee Manu' victim='4:pico' weapon=3 special=0
+[4f6b1bc9][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=-1 special=0
+[4f6b1bca][game]: pickup player='0:Philippe' item=2/4
+[4f6b1bca][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1bca][game]: kill killer='4:pico' victim='4:pico' weapon=-1 special=0
+[4f6b1bcb][game]: pickup player='3:Njut' item=1/0
+[4f6b1bcb][game]: pickup player='3:Njut' item=1/0
+[4f6b1bcb][game]: pickup player='3:Njut' item=2/2
+[4f6b1bcc][game]: pickup player='2:jb44444' item=2/2
+[4f6b1bcd][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1bce][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1bce][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1bce][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1bcf][game]: pickup player='2:jb44444' item=0/0
+[4f6b1bd0][game]: kill killer='2:jb44444' victim='3:Njut' weapon=2 special=0
+[4f6b1bd1][game]: kill killer='3:Njut' victim='3:Njut' weapon=-1 special=0
+[4f6b1bd1][game]: kill killer='5:Tee Manu' victim='0:Philippe' weapon=3 special=0
+[4f6b1bd3][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1bd3][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b1bd3][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=-1 special=0
+[4f6b1bd3][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1bd3][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1bd3][game]: pickup player='0:Philippe' item=2/2
+[4f6b1bd5][game]: pickup player='3:Njut' item=1/0
+[4f6b1bd5][game]: pickup player='3:Njut' item=1/0
+[4f6b1bd7][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1bd8][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1bd9][game]: pickup player='0:Philippe' item=2/3
+[4f6b1bd9][game]: pickup player='0:Philippe' item=1/0
+[4f6b1bd9][game]: pickup player='4:pico' item=2/4
+[4f6b1bdb][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1bdb][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1bdb][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1bdc][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1bdd][game]: pickup player='0:Philippe' item=1/0
+[4f6b1bdd][register]: refreshing ip addresses
+[4f6b1bdd][register]: fetching server counts
+[4f6b1bde][register]: chose 'master1.teeworlds.com' as master, sending heartbeats
+[4f6b1bde][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=2 special=0
+[4f6b1bde][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=2 special=0
+[4f6b1bdf][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=-1 special=0
+[4f6b1bdf][game]: kill killer='1:JoJoS' victim='4:pico' weapon=2 special=0
+[4f6b1be0][game]: kill killer='4:pico' victim='1:JoJoS' weapon=4 special=0
+[4f6b1be1][game]: kill killer='0:Philippe' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1be3][game]: pickup player='2:jb44444' item=1/0
+[4f6b1be5][game]: pickup player='4:pico' item=2/2
+[4f6b1be6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1be6][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1be6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1be7][game]: kill killer='3:Njut' victim='5:Tee Manu' weapon=1 special=0
+[4f6b1be7][game]: pickup player='4:pico' item=2/3
+[4f6b1be7][game]: pickup player='3:Njut' item=0/0
+[4f6b1be9][game]: pickup player='2:jb44444' item=0/0
+[4f6b1bea][game]: pickup player='3:Njut' item=2/3
+[4f6b1bea][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=1 special=0
+[4f6b1bea][game]: pickup player='0:Philippe' item=0/0
+[4f6b1beb][game]: pickup player='0:Philippe' item=0/0
+[4f6b1beb][game]: kill killer='4:pico' victim='2:jb44444' weapon=3 special=0
+[4f6b1beb][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1bec][game]: pickup player='3:Njut' item=2/4
+[4f6b1bed][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1bed][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1bed][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1bed][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1bee][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=-1 special=0
+[4f6b1bee][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1bef][game]: kill killer='4:pico' victim='4:pico' weapon=3 special=0
+[4f6b1bef][game]: kill killer='4:pico' victim='0:Philippe' weapon=3 special=0
+[4f6b1bef][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1bf1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1bf2][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1bfc][game]: dm1
+[4f6b1bfc][game]: start round type='DM' teamplay='0'
+[4f6b1bfc][datafile]: loading. filename='maps/dm1.map'
+[4f6b1bfc][datafile]: allocsize=2560
+[4f6b1bfc][datafile]: readsize=2396
+[4f6b1bfc][datafile]: swaplen=2416
+[4f6b1bfc][datafile]: item_size=2012
+[4f6b1bfc][datafile]: loading done. datafile='maps/dm1.map'
+[4f6b1bfc][server]: maps/dm1.map crc is f2159e6e
+[4f6b1bfc][datafile]: loading data index=17 size=325 uncompressed=12000
+[4f6b1bfc][server]: player is ready. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1bfc][server]: player is ready. ClientID=4 addr=192.168.1.63:55255
+[4f6b1bfc][server]: player is ready. ClientID=1 addr=192.168.1.186:49604
+[4f6b1bfc][server]: player is ready. ClientID=3 addr=192.168.1.12:59815
+[4f6b1bfc][server]: player is ready. ClientID=5 addr=192.168.1.123:56437
+[4f6b1bfc][server]: player is ready. ClientID=2 addr=192.168.1.10:45391
+[4f6b1bfd][server]: player has entered the game. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1bfd][chat]: *** 'Philippe' entered and joined the game
+[4f6b1bfd][game]: team_join player='0:Philippe' team=0
+[4f6b1bfd][server]: player has entered the game. ClientID=4 addr=192.168.1.63:55255
+[4f6b1bfd][chat]: *** 'pico' entered and joined the game
+[4f6b1bfd][game]: team_join player='4:pico' team=0
+[4f6b1bfd][server]: player has entered the game. ClientID=2 addr=192.168.1.10:45391
+[4f6b1bfd][chat]: *** 'jb44444' entered and joined the game
+[4f6b1bfd][game]: team_join player='2:jb44444' team=0
+[4f6b1bfd][server]: player has entered the game. ClientID=1 addr=192.168.1.186:49604
+[4f6b1bfd][chat]: *** 'JoJoS' entered and joined the game
+[4f6b1bfd][game]: team_join player='1:JoJoS' team=0
+[4f6b1bfd][server]: player has entered the game. ClientID=5 addr=192.168.1.123:56437
+[4f6b1bfd][chat]: *** 'Tee Manu' entered and joined the game
+[4f6b1bfd][game]: team_join player='5:Tee Manu' team=0
+[4f6b1bfe][server]: player has entered the game. ClientID=3 addr=192.168.1.12:59815
+[4f6b1bfe][chat]: *** 'Njut' entered and joined the game
+[4f6b1bfe][game]: team_join player='3:Njut' team=0
+[4f6b1bff][game]: pickup player='4:pico' item=2/2
+[4f6b1bff][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1c00][game]: pickup player='4:pico' item=1/0
+[4f6b1c00][game]: pickup player='4:pico' item=1/0
+[4f6b1c00][game]: pickup player='2:jb44444' item=2/3
+[4f6b1c01][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c02][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c02][game]: pickup player='3:Njut' item=1/0
+[4f6b1c03][game]: pickup player='3:Njut' item=1/0
+[4f6b1c04][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1c05][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c05][game]: pickup player='3:Njut' item=1/0
+[4f6b1c05][game]: pickup player='0:Philippe' item=0/0
+[4f6b1c06][game]: pickup player='3:Njut' item=1/0
+[4f6b1c06][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1c07][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c07][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=3 special=0
+[4f6b1c0c][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=1 special=0
+[4f6b1c0c][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=1 special=0
+[4f6b1c0d][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1c0d][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1c0e][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1c0f][game]: pickup player='0:Philippe' item=2/3
+[4f6b1c11][game]: pickup player='4:pico' item=2/3
+[4f6b1c11][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1c12][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1c12][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c12][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1c12][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1c13][game]: kill killer='4:pico' victim='2:jb44444' weapon=3 special=0
+[4f6b1c14][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1c14][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1c15][game]: kill killer='4:pico' victim='4:pico' weapon=3 special=0
+[4f6b1c15][game]: pickup player='2:jb44444' item=1/0
+[4f6b1c15][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1c15][game]: pickup player='2:jb44444' item=1/0
+[4f6b1c16][game]: kill killer='0:Philippe' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1c16][game]: pickup player='4:pico' item=2/2
+[4f6b1c16][game]: pickup player='2:jb44444' item=2/2
+[4f6b1c16][game]: pickup player='4:pico' item=1/0
+[4f6b1c16][game]: pickup player='4:pico' item=1/0
+[4f6b1c18][game]: pickup player='0:Philippe' item=1/0
+[4f6b1c18][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=1 special=0
+[4f6b1c1b][game]: pickup player='3:Njut' item=0/0
+[4f6b1c1b][game]: pickup player='3:Njut' item=0/0
+[4f6b1c1c][game]: kill killer='4:pico' victim='2:jb44444' weapon=2 special=0
+[4f6b1c1c][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1c1f][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c1f][game]: pickup player='3:Njut' item=0/0
+[4f6b1c1f][game]: pickup player='0:Philippe' item=0/0
+[4f6b1c1f][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c20][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1c21][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1c21][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1c21][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1c22][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b1c23][game]: pickup player='2:jb44444' item=0/0
+[4f6b1c23][game]: pickup player='2:jb44444' item=0/0
+[4f6b1c23][game]: pickup player='2:jb44444' item=1/0
+[4f6b1c24][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=3 special=0
+[4f6b1c25][game]: pickup player='0:Philippe' item=2/3
+[4f6b1c26][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c27][game]: pickup player='3:Njut' item=1/0
+[4f6b1c27][game]: pickup player='3:Njut' item=1/0
+[4f6b1c27][game]: kill killer='0:Philippe' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1c27][game]: pickup player='3:Njut' item=2/2
+[4f6b1c28][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1c28][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b1c28][game]: pickup player='4:pico' item=1/0
+[4f6b1c28][game]: pickup player='4:pico' item=1/0
+[4f6b1c28][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c28][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c2b][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b1c2b][game]: kill killer='4:pico' victim='1:JoJoS' weapon=1 special=0
+[4f6b1c2e][game]: kill killer='3:Njut' victim='0:Philippe' weapon=2 special=0
+[4f6b1c2e][game]: pickup player='4:pico' item=1/0
+[4f6b1c2f][game]: kill killer='3:Njut' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1c2f][game]: pickup player='2:jb44444' item=0/0
+[4f6b1c30][game]: kill killer='2:jb44444' victim='3:Njut' weapon=0 special=0
+[4f6b1c30][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1c30][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1c31][game]: pickup player='4:pico' item=2/3
+[4f6b1c32][game]: pickup player='0:Philippe' item=1/0
+[4f6b1c33][game]: pickup player='4:pico' item=0/0
+[4f6b1c34][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1c35][game]: pickup player='2:jb44444' item=0/0
+[4f6b1c35][game]: kill killer='0:Philippe' victim='5:Tee Manu' weapon=1 special=0
+[4f6b1c36][game]: pickup player='4:pico' item=0/0
+[4f6b1c37][game]: kill killer='4:pico' victim='3:Njut' weapon=3 special=0
+[4f6b1c38][game]: pickup player='3:Njut' item=1/0
+[4f6b1c39][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b1c39][game]: pickup player='3:Njut' item=1/0
+[4f6b1c39][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b1c3a][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1c3a][game]: pickup player='3:Njut' item=2/2
+[4f6b1c3a][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c3a][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1c3a][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1c3b][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c3b][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=1 special=0
+[4f6b1c3d][game]: pickup player='2:jb44444' item=0/0
+[4f6b1c3d][game]: pickup player='2:jb44444' item=1/0
+[4f6b1c3d][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1c3d][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=2 special=0
+[4f6b1c3e][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1c3f][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1c3f][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1c41][game]: pickup player='3:Njut' item=2/3
+[4f6b1c41][game]: kill killer='3:Njut' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1c43][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=3 special=0
+[4f6b1c44][game]: pickup player='3:Njut' item=1/0
+[4f6b1c44][game]: pickup player='3:Njut' item=1/0
+[4f6b1c45][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1c46][game]: pickup player='3:Njut' item=0/0
+[4f6b1c47][game]: pickup player='3:Njut' item=0/0
+[4f6b1c47][game]: pickup player='3:Njut' item=0/0
+[4f6b1c48][game]: pickup player='4:pico' item=0/0
+[4f6b1c49][game]: kill killer='5:Tee Manu' victim='0:Philippe' weapon=3 special=0
+[4f6b1c49][game]: kill killer='3:Njut' victim='1:JoJoS' weapon=3 special=0
+[4f6b1c4a][game]: pickup player='0:Philippe' item=2/2
+[4f6b1c4a][game]: kill killer='3:Njut' victim='2:jb44444' weapon=3 special=0
+[4f6b1c4a][game]: pickup player='0:Philippe' item=1/0
+[4f6b1c4a][game]: kill killer='1:JoJoS' victim='3:Njut' weapon=1 special=0
+[4f6b1c4a][game]: pickup player='0:Philippe' item=1/0
+[4f6b1c4b][game]: kill killer='5:Tee Manu' victim='1:JoJoS' weapon=3 special=0
+[4f6b1c4b][game]: pickup player='4:pico' item=2/2
+[4f6b1c4c][game]: pickup player='3:Njut' item=1/0
+[4f6b1c4d][game]: pickup player='3:Njut' item=1/0
+[4f6b1c4e][game]: pickup player='3:Njut' item=0/0
+[4f6b1c4f][game]: kill killer='4:pico' victim='2:jb44444' weapon=2 special=0
+[4f6b1c50][game]: kill killer='0:Philippe' victim='5:Tee Manu' weapon=2 special=0
+[4f6b1c51][game]: pickup player='0:Philippe' item=2/3
+[4f6b1c51][game]: pickup player='3:Njut' item=0/0
+[4f6b1c51][game]: pickup player='3:Njut' item=1/0
+[4f6b1c52][game]: kill killer='1:JoJoS' victim='4:pico' weapon=1 special=0
+[4f6b1c53][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=1 special=0
+[4f6b1c54][game]: pickup player='0:Philippe' item=1/0
+[4f6b1c54][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c56][game]: pickup player='2:jb44444' item=2/3
+[4f6b1c57][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=3 special=0
+[4f6b1c59][game]: pickup player='4:pico' item=0/0
+[4f6b1c5a][game]: pickup player='4:pico' item=0/0
+[4f6b1c5a][game]: kill killer='4:pico' victim='1:JoJoS' weapon=1 special=0
+[4f6b1c5a][game]: pickup player='5:Tee Manu' item=3/5
+[4f6b1c5b][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1c5c][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1c5c][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1c5d][game]: kill killer='0:Philippe' victim='3:Njut' weapon=0 special=0
+[4f6b1c5d][game]: pickup player='2:jb44444' item=1/0
+[4f6b1c5e][game]: pickup player='2:jb44444' item=1/0
+[4f6b1c5f][game]: pickup player='0:Philippe' item=0/0
+[4f6b1c5f][game]: pickup player='3:Njut' item=1/0
+[4f6b1c60][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c60][game]: pickup player='3:Njut' item=1/0
+[4f6b1c60][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c60][game]: pickup player='3:Njut' item=2/2
+[4f6b1c60][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c61][game]: kill killer='4:pico' victim='0:Philippe' weapon=1 special=0
+[4f6b1c61][game]: kill killer='2:jb44444' victim='4:pico' weapon=0 special=0
+[4f6b1c64][game]: pickup player='2:jb44444' item=2/3
+[4f6b1c64][game]: kill killer='5:Tee Manu' victim='0:Philippe' weapon=5 special=0
+[4f6b1c64][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c66][game]: pickup player='4:pico' item=1/0
+[4f6b1c66][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1c67][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1c69][game]: kill killer='0:Philippe' victim='3:Njut' weapon=1 special=0
+[4f6b1c69][game]: pickup player='2:jb44444' item=0/0
+[4f6b1c6a][game]: pickup player='2:jb44444' item=0/0
+[4f6b1c6d][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c6e][game]: pickup player='4:pico' item=2/2
+[4f6b1c6e][game]: pickup player='4:pico' item=1/0
+[4f6b1c6e][game]: pickup player='4:pico' item=1/0
+[4f6b1c70][game]: pickup player='3:Njut' item=0/0
+[4f6b1c70][game]: pickup player='3:Njut' item=0/0
+[4f6b1c71][game]: pickup player='5:Tee Manu' item=2/2
+[4f6b1c71][game]: pickup player='3:Njut' item=0/0
+[4f6b1c71][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c71][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c72][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c72][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c72][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c72][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c74][game]: pickup player='0:Philippe' item=2/3
+[4f6b1c75][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=2 special=0
+[4f6b1c75][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=3 special=0
+[4f6b1c76][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=0 special=0
+[4f6b1c77][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1c77][game]: pickup player='0:Philippe' item=1/0
+[4f6b1c7b][register]: refreshing ip addresses
+[4f6b1c7b][register]: fetching server counts
+[4f6b1c7b][register]: chose 'master1.teeworlds.com' as master, sending heartbeats
+[4f6b1c7e][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b1c7e][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c7e][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=1 special=0
+[4f6b1c7f][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c80][game]: pickup player='2:jb44444' item=1/0
+[4f6b1c80][game]: pickup player='2:jb44444' item=2/2
+[4f6b1c81][game]: pickup player='3:Njut' item=1/0
+[4f6b1c81][game]: pickup player='3:Njut' item=1/0
+[4f6b1c81][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c81][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1c81][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1c81][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1c82][game]: kill killer='1:JoJoS' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1c83][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=2 special=0
+[4f6b1c84][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c84][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1c84][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c85][game]: pickup player='0:Philippe' item=1/0
+[4f6b1c85][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c86][game]: pickup player='4:pico' item=0/0
+[4f6b1c87][game]: kill killer='1:JoJoS' victim='4:pico' weapon=2 special=0
+[4f6b1c87][game]: pickup player='2:jb44444' item=2/3
+[4f6b1c87][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c89][game]: pickup player='4:pico' item=2/3
+[4f6b1c89][game]: pickup player='3:Njut' item=1/0
+[4f6b1c89][game]: pickup player='3:Njut' item=1/0
+[4f6b1c8c][game]: kill killer='0:Philippe' victim='3:Njut' weapon=1 special=0
+[4f6b1c8e][game]: pickup player='2:jb44444' item=0/0
+[4f6b1c8e][game]: pickup player='4:pico' item=0/0
+[4f6b1c8e][game]: pickup player='2:jb44444' item=0/0
+[4f6b1c8e][game]: kill killer='4:pico' victim='2:jb44444' weapon=3 special=0
+[4f6b1c8e][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b1c90][game]: pickup player='3:Njut' item=1/0
+[4f6b1c90][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c90][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c91][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1c91][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c91][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c91][game]: pickup player='3:Njut' item=2/2
+[4f6b1c92][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c92][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c97][game]: kill killer='3:Njut' victim='0:Philippe' weapon=2 special=0
+[4f6b1c97][game]: pickup player='5:Tee Manu' item=2/3
+[4f6b1c98][game]: kill killer='5:Tee Manu' victim='4:pico' weapon=3 special=0
+[4f6b1c9a][game]: kill killer='5:Tee Manu' victim='2:jb44444' weapon=3 special=0
+[4f6b1c9a][game]: kill killer='5:Tee Manu' victim='3:Njut' weapon=3 special=0
+[4f6b1c9a][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1c9b][game]: pickup player='4:pico' item=1/0
+[4f6b1c9b][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c9c][game]: pickup player='3:Njut' item=1/0
+[4f6b1c9c][game]: pickup player='4:pico' item=2/2
+[4f6b1c9c][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1c9d][game]: kill killer='4:pico' victim='2:jb44444' weapon=2 special=0
+[4f6b1c9d][game]: kill killer='5:Tee Manu' victim='0:Philippe' weapon=3 special=0
+[4f6b1c9d][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c9e][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1c9f][game]: kill killer='5:Tee Manu' victim='4:pico' weapon=3 special=0
+[4f6b1c9f][game]: kill killer='5:Tee Manu' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1c9f][game]: pickup player='3:Njut' item=1/0
+[4f6b1ca0][game]: pickup player='2:jb44444' item=0/0
+[4f6b1ca1][game]: pickup player='4:pico' item=2/2
+[4f6b1ca1][game]: pickup player='4:pico' item=1/0
+[4f6b1ca3][game]: pickup player='5:Tee Manu' item=0/0
+[4f6b1ca4][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1ca4][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1ca7][game]: pickup player='0:Philippe' item=1/0
+[4f6b1ca8][game]: pickup player='2:jb44444' item=2/3
+[4f6b1caa][game]: kill killer='0:Philippe' victim='3:Njut' weapon=0 special=0
+[4f6b1cab][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=0 special=0
+[4f6b1cab][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=3 special=0
+[4f6b1cac][game]: kill killer='2:jb44444' victim='5:Tee Manu' weapon=3 special=0
+[4f6b1cac][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cad][game]: pickup player='3:Njut' item=1/0
+[4f6b1cad][game]: pickup player='2:jb44444' item=0/0
+[4f6b1cad][game]: pickup player='2:jb44444' item=0/0
+[4f6b1cad][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1cae][game]: pickup player='0:Philippe' item=2/3
+[4f6b1cae][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1cae][game]: pickup player='4:pico' item=0/0
+[4f6b1cae][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1caf][game]: pickup player='2:jb44444' item=0/0
+[4f6b1cb1][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b1cb1][game]: pickup player='5:Tee Manu' item=1/0
+[4f6b1cb1][game]: kill killer='1:JoJoS' victim='4:pico' weapon=2 special=0
+[4f6b1cb2][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1cb2][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1cb2][game]: pickup player='4:pico' item=2/2
+[4f6b1cb3][game]: pickup player='4:pico' item=1/0
+[4f6b1cb5][game]: pickup player='5:Tee Manu' item=3/5
+[4f6b1cb6][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=2 special=0
+[4f6b1cc0][game]: dm2
+[4f6b1cc0][game]: start round type='DM' teamplay='0'
+[4f6b1cc0][datafile]: loading. filename='maps/dm2.map'
+[4f6b1cc0][datafile]: allocsize=2828
+[4f6b1cc0][datafile]: readsize=2676
+[4f6b1cc0][datafile]: swaplen=2696
+[4f6b1cc0][datafile]: item_size=2316
+[4f6b1cc0][datafile]: loading done. datafile='maps/dm2.map'
+[4f6b1cc0][server]: maps/dm2.map crc is 71839878
+[4f6b1cc0][datafile]: loading data index=12 size=844 uncompressed=46800
+[4f6b1cc0][server]: player is ready. ClientID=1 addr=192.168.1.186:49604
+[4f6b1cc0][server]: player is ready. ClientID=2 addr=192.168.1.10:45391
+[4f6b1cc0][server]: player is ready. ClientID=5 addr=192.168.1.123:56437
+[4f6b1cc0][server]: player is ready. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1cc0][server]: player is ready. ClientID=3 addr=192.168.1.12:59815
+[4f6b1cc0][server]: player is ready. ClientID=4 addr=192.168.1.63:55255
+[4f6b1cc0][server]: player has entered the game. ClientID=5 addr=192.168.1.123:56437
+[4f6b1cc0][chat]: *** 'Tee Manu' entered and joined the game
+[4f6b1cc0][game]: team_join player='5:Tee Manu' team=0
+[4f6b1cc0][server]: player has entered the game. ClientID=2 addr=192.168.1.10:45391
+[4f6b1cc0][chat]: *** 'jb44444' entered and joined the game
+[4f6b1cc0][game]: team_join player='2:jb44444' team=0
+[4f6b1cc0][server]: player has entered the game. ClientID=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971
+[4f6b1cc0][chat]: *** 'Philippe' entered and joined the game
+[4f6b1cc0][game]: team_join player='0:Philippe' team=0
+[4f6b1cc0][server]: player has entered the game. ClientID=1 addr=192.168.1.186:49604
+[4f6b1cc0][chat]: *** 'JoJoS' entered and joined the game
+[4f6b1cc0][game]: team_join player='1:JoJoS' team=0
+[4f6b1cc0][server]: player has entered the game. ClientID=4 addr=192.168.1.63:55255
+[4f6b1cc0][chat]: *** 'pico' entered and joined the game
+[4f6b1cc0][game]: team_join player='4:pico' team=0
+[4f6b1cc1][server]: player has entered the game. ClientID=3 addr=192.168.1.12:59815
+[4f6b1cc1][chat]: *** 'Njut' entered and joined the game
+[4f6b1cc1][game]: team_join player='3:Njut' team=0
+[4f6b1cc1][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1cc1][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1cc3][server]: client dropped. cid=5 addr=192.168.1.123:56437 reason=''
+[4f6b1cc3][game]: kill killer='5:Tee Manu' victim='5:Tee Manu' weapon=-3 special=0
+[4f6b1cc3][chat]: *** 'Tee Manu' has left the game
+[4f6b1cc3][game]: leave player='5:Tee Manu'
+[4f6b1cc4][game]: pickup player='1:JoJoS' item=2/4
+[4f6b1cc4][game]: pickup player='0:Philippe' item=2/3
+[4f6b1cc5][game]: pickup player='4:pico' item=2/3
+[4f6b1cc6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cc6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cc6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cc7][game]: kill killer='0:Philippe' victim='3:Njut' weapon=3 special=0
+[4f6b1cc7][server]: client dropped. cid=3 addr=192.168.1.12:59815 reason=''
+[4f6b1cc7][chat]: *** 'Njut' has left the game
+[4f6b1cc7][game]: leave player='3:Njut'
+[4f6b1cc8][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1ccc][game]: kill killer='4:pico' victim='0:Philippe' weapon=3 special=0
+[4f6b1cce][game]: pickup player='2:jb44444' item=2/2
+[4f6b1ccf][game]: pickup player='0:Philippe' item=2/3
+[4f6b1cd0][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1cd0][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1cd0][game]: pickup player='2:jb44444' item=1/0
+[4f6b1cd0][game]: pickup player='2:jb44444' item=1/0
+[4f6b1cd0][game]: pickup player='2:jb44444' item=1/0
+[4f6b1cd1][game]: pickup player='2:jb44444' item=1/0
+[4f6b1cd1][game]: pickup player='2:jb44444' item=1/0
+[4f6b1cd1][game]: pickup player='2:jb44444' item=1/0
+[4f6b1cd4][game]: kill killer='2:jb44444' victim='4:pico' weapon=2 special=0
+[4f6b1cd7][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1cd7][game]: pickup player='0:Philippe' item=1/0
+[4f6b1cd7][game]: pickup player='0:Philippe' item=1/0
+[4f6b1cd7][game]: pickup player='0:Philippe' item=1/0
+[4f6b1cd9][game]: pickup player='4:pico' item=1/0
+[4f6b1cd9][game]: pickup player='4:pico' item=1/0
+[4f6b1cd9][game]: pickup player='4:pico' item=1/0
+[4f6b1cdb][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=3 special=0
+[4f6b1cde][game]: pickup player='2:jb44444' item=2/2
+[4f6b1cdf][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1cdf][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1ce1][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1ce1][game]: kill killer='4:pico' victim='0:Philippe' weapon=1 special=0
+[4f6b1ce4][game]: pickup player='0:Philippe' item=2/4
+[4f6b1ce5][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1ce6][game]: pickup player='2:jb44444' item=2/3
+[4f6b1ce8][game]: pickup player='0:Philippe' item=2/3
+[4f6b1cf0][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cf0][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cf0][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cf0][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cf0][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cf0][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cf0][game]: pickup player='2:jb44444' item=2/2
+[4f6b1cf0][game]: pickup player='4:pico' item=0/0
+[4f6b1cf1][game]: pickup player='4:pico' item=0/0
+[4f6b1cf1][game]: pickup player='4:pico' item=0/0
+[4f6b1cf3][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=4 special=0
+[4f6b1cf4][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=4 special=0
+[4f6b1cf6][game]: pickup player='1:JoJoS' item=2/4
+[4f6b1cf6][game]: pickup player='2:jb44444' item=2/3
+[4f6b1cf8][game]: pickup player='0:Philippe' item=2/3
+[4f6b1cf9][game]: kill killer='2:jb44444' victim='4:pico' weapon=3 special=0
+[4f6b1cf9][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cf9][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cf9][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1cfa][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=4 special=0
+[4f6b1cfd][game]: pickup player='2:jb44444' item=1/0
+[4f6b1cfd][game]: pickup player='2:jb44444' item=1/0
+[4f6b1cfd][game]: pickup player='2:jb44444' item=1/0
+[4f6b1cfe][game]: pickup player='0:Philippe' item=2/3
+[4f6b1cfe][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1cfe][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1cfe][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1cfe][game]: pickup player='2:jb44444' item=0/0
+[4f6b1d00][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1d01][game]: pickup player='4:pico' item=2/2
+[4f6b1d05][game]: pickup player='4:pico' item=1/0
+[4f6b1d05][game]: pickup player='4:pico' item=1/0
+[4f6b1d05][game]: pickup player='4:pico' item=1/0
+[4f6b1d05][game]: pickup player='4:pico' item=1/0
+[4f6b1d05][game]: pickup player='4:pico' item=1/0
+[4f6b1d05][game]: pickup player='4:pico' item=1/0
+[4f6b1d0a][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=4 special=0
+[4f6b1d0b][game]: pickup player='2:jb44444' item=2/2
+[4f6b1d0d][game]: kill killer='2:jb44444' victim='1:JoJoS' weapon=2 special=0
+[4f6b1d0d][game]: pickup player='0:Philippe' item=2/3
+[4f6b1d0e][game]: kill killer='4:pico' victim='2:jb44444' weapon=2 special=0
+[4f6b1d0f][game]: pickup player='1:JoJoS' item=2/4
+[4f6b1d10][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d10][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d10][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d11][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d11][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d11][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d13][game]: kill killer='1:JoJoS' victim='4:pico' weapon=4 special=0
+[4f6b1d15][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1d16][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d16][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d16][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d16][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d16][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d16][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d1a][game]: pickup player='2:jb44444' item=2/2
+[4f6b1d1a][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1d1b][register]: refreshing ip addresses
+[4f6b1d1b][register]: fetching server counts
+[4f6b1d1b][register]: chose 'master1.teeworlds.com' as master, sending heartbeats
+[4f6b1d20][game]: pickup player='2:jb44444' item=2/2
+[4f6b1d23][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b1d25][game]: pickup player='2:jb44444' item=2/4
+[4f6b1d26][game]: pickup player='0:Philippe' item=2/3
+[4f6b1d28][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d28][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d28][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d28][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d28][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d28][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d29][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d29][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d29][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d2b][game]: pickup player='4:pico' item=2/2
+[4f6b1d2c][game]: pickup player='2:jb44444' item=2/3
+[4f6b1d2f][game]: kill killer='4:pico' victim='1:JoJoS' weapon=2 special=0
+[4f6b1d31][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1d32][game]: pickup player='2:jb44444' item=2/2
+[4f6b1d33][game]: kill killer='0:Philippe' victim='2:jb44444' weapon=3 special=0
+[4f6b1d36][game]: pickup player='1:JoJoS' item=3/5
+[4f6b1d36][game]: pickup player='0:Philippe' item=0/0
+[4f6b1d38][game]: pickup player='4:pico' item=2/3
+[4f6b1d38][game]: pickup player='2:jb44444' item=2/4
+[4f6b1d3f][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d40][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d40][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d41][game]: pickup player='4:pico' item=1/0
+[4f6b1d41][game]: pickup player='4:pico' item=1/0
+[4f6b1d41][game]: pickup player='4:pico' item=1/0
+[4f6b1d42][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=5 special=0
+[4f6b1d44][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=5 special=0
+[4f6b1d45][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1d45][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1d45][game]: pickup player='0:Philippe' item=2/3
+[4f6b1d47][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1d48][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=3 special=0
+[4f6b1d49][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b1d4a][game]: pickup player='2:jb44444' item=2/3
+[4f6b1d50][game]: pickup player='4:pico' item=2/2
+[4f6b1d51][game]: pickup player='2:jb44444' item=2/2
+[4f6b1d51][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1d52][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1d52][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1d52][game]: pickup player='4:pico' item=1/0
+[4f6b1d52][game]: pickup player='4:pico' item=1/0
+[4f6b1d52][game]: pickup player='4:pico' item=1/0
+[4f6b1d52][game]: pickup player='4:pico' item=1/0
+[4f6b1d52][game]: pickup player='4:pico' item=1/0
+[4f6b1d52][game]: pickup player='4:pico' item=1/0
+[4f6b1d52][game]: pickup player='0:Philippe' item=2/3
+[4f6b1d56][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d56][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d56][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d57][game]: kill killer='4:pico' victim='2:jb44444' weapon=2 special=0
+[4f6b1d5a][game]: pickup player='2:jb44444' item=2/3
+[4f6b1d5d][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d5d][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d5d][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d5f][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1d5f][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1d5f][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1d61][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1d61][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1d61][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1d62][game]: pickup player='4:pico' item=2/2
+[4f6b1d63][game]: pickup player='0:Philippe' item=2/3
+[4f6b1d64][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=3 special=0
+[4f6b1d65][game]: kill killer='4:pico' victim='0:Philippe' weapon=2 special=0
+[4f6b1d67][game]: pickup player='0:Philippe' item=2/4
+[4f6b1d67][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1d68][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d68][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d68][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d68][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d68][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d68][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d6b][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1d6e][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=3 special=0
+[4f6b1d6f][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d6f][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d70][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1d70][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1d72][game]: pickup player='0:Philippe' item=2/3
+[4f6b1d72][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1d74][game]: pickup player='4:pico' item=2/3
+[4f6b1d75][game]: kill killer='1:JoJoS' victim='4:pico' weapon=3 special=0
+[4f6b1d78][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d78][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d78][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d78][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d78][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d78][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d7b][game]: pickup player='4:pico' item=1/0
+[4f6b1d7b][game]: pickup player='4:pico' item=1/0
+[4f6b1d7b][game]: pickup player='4:pico' item=1/0
+[4f6b1d7c][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b1d7d][game]: kill killer='0:Philippe' victim='1:JoJoS' weapon=3 special=0
+[4f6b1d7f][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1d7f][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1d7f][game]: pickup player='1:JoJoS' item=2/4
+[4f6b1d82][game]: pickup player='4:pico' item=2/2
+[4f6b1d82][game]: pickup player='0:Philippe' item=0/0
+[4f6b1d82][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d82][game]: pickup player='0:Philippe' item=0/0
+[4f6b1d82][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d82][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1d82][game]: pickup player='0:Philippe' item=0/0
+[4f6b1d83][game]: pickup player='0:Philippe' item=2/3
+[4f6b1d87][game]: pickup player='4:pico' item=2/3
+[4f6b1d88][game]: kill killer='4:pico' victim='0:Philippe' weapon=3 special=0
+[4f6b1d89][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d89][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d89][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d89][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d89][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d89][game]: pickup player='2:jb44444' item=1/0
+[4f6b1d8b][game]: pickup player='0:Philippe' item=2/3
+[4f6b1d8d][game]: kill killer='4:pico' victim='4:pico' weapon=3 special=0
+[4f6b1d8e][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d8e][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d8e][game]: pickup player='0:Philippe' item=1/0
+[4f6b1d93][game]: pickup player='4:pico' item=2/4
+[4f6b1d93][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=4 special=0
+[4f6b1d97][game]: pickup player='4:pico' item=1/0
+[4f6b1d97][game]: pickup player='4:pico' item=1/0
+[4f6b1d97][game]: pickup player='4:pico' item=1/0
+[4f6b1d97][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1d97][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1d97][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1d98][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1d99][game]: pickup player='2:jb44444' item=3/5
+[4f6b1d9b][game]: pickup player='0:Philippe' item=2/3
+[4f6b1da3][game]: kill killer='1:JoJoS' victim='2:jb44444' weapon=3 special=0
+[4f6b1da5][game]: pickup player='2:jb44444' item=2/3
+[4f6b1da6][game]: pickup player='4:pico' item=2/2
+[4f6b1da6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1da6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1da6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1da6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1da6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1da6][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1da8][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1da8][game]: pickup player='2:jb44444' item=1/0
+[4f6b1da8][game]: pickup player='2:jb44444' item=1/0
+[4f6b1da8][game]: pickup player='2:jb44444' item=1/0
+[4f6b1daa][game]: kill killer='4:pico' victim='0:Philippe' weapon=2 special=0
+[4f6b1dab][game]: pickup player='4:pico' item=2/3
+[4f6b1daf][game]: kill killer='1:JoJoS' victim='4:pico' weapon=2 special=0
+[4f6b1db1][game]: pickup player='0:Philippe' item=2/3
+[4f6b1db3][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1db3][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1db3][game]: pickup player='1:JoJoS' item=0/0
+[4f6b1db4][game]: pickup player='0:Philippe' item=1/0
+[4f6b1db4][game]: pickup player='0:Philippe' item=1/0
+[4f6b1db4][game]: pickup player='0:Philippe' item=1/0
+[4f6b1db4][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1db7][game]: kill killer='2:jb44444' victim='0:Philippe' weapon=3 special=0
+[4f6b1dba][game]: pickup player='0:Philippe' item=2/3
+[4f6b1dba][game]: pickup player='4:pico' item=2/2
+[4f6b1dbb][register]: refreshing ip addresses
+[4f6b1dbb][register]: fetching server counts
+[4f6b1dbb][register]: chose 'master3.teeworlds.com' as master, sending heartbeats
+[4f6b1dbc][game]: pickup player='4:pico' item=1/0
+[4f6b1dbc][game]: pickup player='4:pico' item=1/0
+[4f6b1dbc][game]: pickup player='4:pico' item=1/0
+[4f6b1dbc][game]: pickup player='4:pico' item=1/0
+[4f6b1dbc][game]: pickup player='4:pico' item=1/0
+[4f6b1dbc][game]: pickup player='4:pico' item=1/0
+[4f6b1dbc][game]: pickup player='1:JoJoS' item=2/3
+[4f6b1dbd][game]: kill killer='4:pico' victim='2:jb44444' weapon=2 special=0
+[4f6b1dc2][game]: kill killer='4:pico' victim='1:JoJoS' weapon=2 special=0
+[4f6b1dc3][game]: pickup player='2:jb44444' item=1/0
+[4f6b1dc3][game]: pickup player='2:jb44444' item=1/0
+[4f6b1dc3][game]: pickup player='2:jb44444' item=1/0
+[4f6b1dc4][game]: pickup player='4:pico' item=2/2
+[4f6b1dc5][game]: pickup player='1:JoJoS' item=2/4
+[4f6b1dc8][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1dc8][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1dc8][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1dcc][game]: pickup player='4:pico' item=2/3
+[4f6b1dcc][game]: pickup player='2:jb44444' item=1/0
+[4f6b1dcc][game]: pickup player='2:jb44444' item=1/0
+[4f6b1dcc][game]: pickup player='2:jb44444' item=1/0
+[4f6b1dcc][game]: pickup player='2:jb44444' item=1/0
+[4f6b1dcc][game]: pickup player='2:jb44444' item=1/0
+[4f6b1dcc][game]: pickup player='2:jb44444' item=1/0
+[4f6b1dcd][game]: pickup player='0:Philippe' item=2/3
+[4f6b1dce][game]: pickup player='4:pico' item=0/0
+[4f6b1dce][game]: pickup player='4:pico' item=0/0
+[4f6b1dce][game]: pickup player='4:pico' item=0/0
+[4f6b1dcf][game]: kill killer='0:Philippe' victim='4:pico' weapon=3 special=0
+[4f6b1dd2][game]: pickup player='4:pico' item=2/3
+[4f6b1dd5][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=4 special=0
+[4f6b1dd6][game]: pickup player='4:pico' item=1/0
+[4f6b1dd6][game]: pickup player='4:pico' item=1/0
+[4f6b1dd6][game]: pickup player='4:pico' item=1/0
+[4f6b1ddc][game]: pickup player='2:jb44444' item=2/3
+[4f6b1ddc][game]: pickup player='0:Philippe' item=2/3
+[4f6b1ddd][game]: pickup player='2:jb44444' item=0/0
+[4f6b1ddd][game]: pickup player='4:pico' item=1/0
+[4f6b1ddd][game]: pickup player='2:jb44444' item=0/0
+[4f6b1ddd][game]: pickup player='4:pico' item=1/0
+[4f6b1ddd][game]: pickup player='2:jb44444' item=0/0
+[4f6b1ddd][game]: pickup player='4:pico' item=1/0
+[4f6b1dde][game]: pickup player='4:pico' item=1/0
+[4f6b1dde][game]: pickup player='4:pico' item=1/0
+[4f6b1dde][game]: pickup player='4:pico' item=1/0
+[4f6b1ddf][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1ddf][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1ddf][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1de2][game]: pickup player='4:pico' item=2/3
+[4f6b1de4][game]: pickup player='4:pico' item=2/2
+[4f6b1de5][game]: pickup player='1:JoJoS' item=2/2
+[4f6b1de7][game]: kill killer='4:pico' victim='2:jb44444' weapon=3 special=0
+[4f6b1de8][game]: kill killer='1:JoJoS' victim='4:pico' weapon=2 special=0
+[4f6b1dea][game]: pickup player='4:pico' item=2/4
+[4f6b1deb][game]: pickup player='2:jb44444' item=2/3
+[4f6b1dee][game]: pickup player='2:jb44444' item=1/0
+[4f6b1dee][game]: pickup player='2:jb44444' item=1/0
+[4f6b1dee][game]: pickup player='2:jb44444' item=1/0
+[4f6b1df0][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1df0][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1df0][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1df0][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1df1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1df1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1df1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1df1][game]: pickup player='1:JoJoS' item=1/0
+[4f6b1df1][game]: pickup player='4:pico' item=2/3
+[4f6b1df3][game]: kill killer='1:JoJoS' victim='0:Philippe' weapon=2 special=0
+[4f6b1df8][server]: client dropped. cid=4 addr=192.168.1.63:55255 reason=''
+[4f6b1df8][game]: kill killer='4:pico' victim='4:pico' weapon=-3 special=0
+[4f6b1df8][chat]: *** 'pico' has left the game
+[4f6b1df8][game]: leave player='4:pico'
+[4f6b1dfb][server]: client dropped. cid=2 addr=192.168.1.10:45391 reason=''
+[4f6b1dfb][game]: kill killer='2:jb44444' victim='2:jb44444' weapon=-3 special=0
+[4f6b1dfb][chat]: *** 'jb44444' has left the game
+[4f6b1dfb][game]: leave player='2:jb44444'
+[4f6b1dfc][server]: client dropped. cid=0 addr=[fe80:0:0:0:3dae:b95b:22c7:63a0]:49971 reason=''
+[4f6b1dfc][game]: kill killer='0:Philippe' victim='0:Philippe' weapon=-3 special=0
+[4f6b1dfc][chat]: *** 'Philippe' has left the game
+[4f6b1dfc][game]: leave player='0:Philippe'
+[4f6b1dfd][game]: dm8
+[4f6b1dfd][game]: start round type='DM' teamplay='0'
+[4f6b1dfd][datafile]: loading. filename='maps/dm8.map'
+[4f6b1dfd][datafile]: allocsize=21756
+[4f6b1dfd][datafile]: readsize=21548
+[4f6b1dfd][datafile]: swaplen=21568
+[4f6b1dfd][datafile]: item_size=20604
+[4f6b1dfd][datafile]: loading done. datafile='maps/dm8.map'
+[4f6b1dfd][server]: maps/dm8.map crc is 85f11ed6
+[4f6b1dfd][datafile]: loading data index=26 size=277 uncompressed=12400
+[4f6b1dfd][server]: player is ready. ClientID=1 addr=192.168.1.186:49604
+[4f6b1dfd][server]: player has entered the game. ClientID=1 addr=192.168.1.186:49604
+[4f6b1dfd][chat]: *** 'JoJoS' entered and joined the game
+[4f6b1dfd][game]: team_join player='1:JoJoS' team=0
+[4f6b1dff][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1dff][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
+[4f6b1e01][server]: client dropped. cid=1 addr=192.168.1.186:49604 reason=''
+[4f6b1e01][game]: kill killer='1:JoJoS' victim='1:JoJoS' weapon=-3 special=0
+[4f6b1e01][chat]: *** 'JoJoS' has left the game
+[4f6b1e01][game]: leave player='1:JoJoS'
+[4f6b1e0e][register]: ERROR: the master server reports that clients can not connect to this server.
+[4f6b1e0e][register]: ERROR: configure your firewall/nat to let through udp on port 8303.
