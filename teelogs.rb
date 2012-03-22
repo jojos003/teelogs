@@ -22,17 +22,33 @@ def parse_logs(io)
     actions
 end
 
+def actions(ary, name)
+    ary.select{|l| l[0] == name.to_s}.flatten!.select!{|l| l != name.to_s}
+end
+
 def parse_values(str)
-    
+    values = Hash.new
+    keys = str.scan(/\w+=/)
+    keys.each do |key|
+        i = str.index(key) + key.length
+        ni = i
+        if(str[i] =~ /'|"/)
+            ni = str.index(/'|"/, i+1)
+        elsif(i+1 < str.length)
+            ni = str.index(/ /, i+1)
+        end
+        values[key.chop] = str.slice(i, ni)
+    end
+    values
 end
 
 logs = parse_logs(open(*ARGV))
 
-kills = logs.select{|l| l[0] == 'kill'}.flatten!.select!{|l| l != 'kill'}
+kills = actions(logs, :kill)
 
 results = Hash.new
 
 kills.each do |kill|
-    
+    pp parse_values(kill)
 end
 
