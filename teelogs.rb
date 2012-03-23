@@ -102,12 +102,16 @@ class Teelogs
                 v.each {|k2,v2| victim = victim + v2 if key == k2 }
             end
             
-            s = {kill: kill, suicide: suicide, victim: victim}
+            s = {kill: kill, 
+              suicide: suicide, 
+               victim: victim, 
+                ratio: (kill - suicide - victim)
+            }
             scores << {key => s}
         end
         scores
     end
-
+    
 end
 
 logs = Teelogs.new(open(*ARGV))
