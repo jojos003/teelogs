@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+REAL_FILE = File.symlink?(__FILE__) ? File.readlink(__FILE__) : __FILE__
+
+$LOAD_PATH << File.dirname(REAL_FILE) + "/../lib"
+
+require 'pp'
+require 'teelogs'
+
+args = ARGV.empty? ? ARGF : open(*ARGV)
+
+logs = Teelogs.new(args)
+
+pp logs.results
+pp logs.scores
+

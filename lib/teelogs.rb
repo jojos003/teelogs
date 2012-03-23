@@ -1,5 +1,3 @@
-require 'pp'
-
 class Teelogs
     
     def initialize(io)
@@ -113,11 +111,6 @@ class Teelogs
     end
     
 end
-
-logs = Teelogs.new(open(*ARGV))
-
-pp logs.results
-pp logs.scores
 
 
 
