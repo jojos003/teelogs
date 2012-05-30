@@ -103,7 +103,8 @@ class Teelogs
             s = {kill: kill, 
               suicide: suicide, 
                victim: victim, 
-                ratio: (kill - suicide - victim)
+                ratio: (kill - suicide - victim),
+                ratio2: (kill.to_f / (suicide.to_f + victim.to_f)).round(2)
             }
             scores << {key => s}
         end
