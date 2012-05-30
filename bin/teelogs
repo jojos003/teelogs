@@ -4,13 +4,25 @@ REAL_FILE = File.symlink?(__FILE__) ? File.readlink(__FILE__) : __FILE__
 
 $LOAD_PATH << File.dirname(REAL_FILE) + "/../lib"
 
+require 'optparse'
 require 'pp'
 require 'teelogs'
+
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "Usage: teelogs [options] teeworlds_server_logs"
+  opts.on("--results") do |r|
+    options[:results] = true
+  end
+end.parse!  
 
 args = ARGV.empty? ? ARGF : open(*ARGV)
 
 logs = Teelogs.new(args)
 
-pp logs.results
-pp logs.scores
+if(options[:results])
+  pp logs.results
+else
+  pp logs.scores
+end
 

@@ -1,21 +1,18 @@
 class Teelogs
     
+    attr_reader :results, :scores
+ 
     def initialize(io)
         @logs = parse_logs(io)
-    end
-
-    def results
         @results = parse_results(actions(@logs, :kill)) unless @results
-        @results
-    end
-    
-    def scores
         @scores = parse_scores(results) unless @scores
-        @scores
     end
     
+    def pretty_results
+        
+    end
     private
-
+    
     def parse_logs(io)
         actions = Array.new
         io.each_line do |line|
