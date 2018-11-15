@@ -7,12 +7,16 @@ $LOAD_PATH << File.dirname(REAL_FILE) + "/../lib"
 require 'optparse'
 require 'pp'
 require 'teelogs'
+require 'json'
 
-options = {}
+@options = {}
 OptionParser.new do |opts|
   opts.banner = "Usage: teelogs [options] teeworlds_server_logs"
   opts.on("--results") do |r|
-    options[:results] = true
+    @options[:results] = true
+  end
+  opts.on("--json", "-j") do |j|
+    @options[:json] = true
   end
 end.parse!  
 
@@ -20,9 +24,17 @@ args = ARGV.empty? ? ARGF : open(*ARGV)
 
 logs = Teelogs.new(args)
 
-if(options[:results])
-  pp logs.results
+def write(results)
+  if @options[:json]
+    puts results.to_json
+  else
+    pp results
+  end
+end
+
+if(@options[:results])
+  write logs.results
 else
-  pp logs.scores
+  write logs.scores
 end
 
